@@ -1,4 +1,4 @@
-import LandingPage from './LandingPage';
+import LandingPage from './pages/landing-page';
 
 const App = () => {
   return (

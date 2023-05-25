@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import styles from "./index.module.css"
-import languageTexts from '../../utils/languageTexts';
+import styles from "./index.module.css";
+import Header from '../../components/header';
+import translations from '../../utils/translations';
 
 const LandingPage = () => {
   const [language, setLanguage] = useState('en');
@@ -16,30 +17,12 @@ const LandingPage = () => {
 
   const getText = (key) => {
     // Language specific text
-    return languageTexts[language][key];
+    return translations[language][key];
   };
 
   return (
     <div>
-      <nav>
-        <ul className="tabs">
-          <li className={activeTab === 'home' ? 'active' : ''} onClick={() => handleTabClick('home')}>
-            {getText('home')}
-          </li>
-          <li className={activeTab === 'services' ? 'active' : ''} onClick={() => handleTabClick('services')}>
-            {getText('services')}
-          </li>
-          <li className={activeTab === 'pricing' ? 'active' : ''} onClick={() => handleTabClick('pricing')}>
-            {getText('pricing')}
-          </li>
-          <li className={activeTab === 'about' ? 'active' : ''} onClick={() => handleTabClick('about')}>
-            {getText('about')}
-          </li>
-          <li className={activeTab === 'contact' ? 'active' : ''} onClick={() => handleTabClick('contact')}>
-            {getText('contact')}
-          </li>
-        </ul>
-      </nav>
+      <Header />
 
       <div>
         <h1>{getText('welcome')}</h1>

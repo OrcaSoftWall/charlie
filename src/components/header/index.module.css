@@ -1,0 +1,31 @@
+.image {
+    max-width: 200px;
+    padding: 16px;
+}
+
+
+/* nav */
+.tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1111119f;
+}
+
+.tabs li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    min-width: 75px; /* to prevent jumping when hovered */
+    padding: 14px;
+    text-decoration: none;
+    font-family: segoe script;
+}
+
+/* Change the link color to #555 (gray) on hover */
+.tabs li:hover {
+    background-color: #555;
+    font-weight: bold;
+}

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import styles from "./index.module.css";
 import Header from '../../components/header';
 import translations from '../../utils/translations';
+import VideoBackG from '../../components/video';
 
 const LandingPage = () => {
   const [language, setLanguage] = useState('en');
@@ -21,28 +22,31 @@ const LandingPage = () => {
   };
 
   return (
-    <div>
-      <Header />
-
-      <div>
-        <h1>{getText('welcome')}</h1>
-        <p>{getText('description')}</p>
+    <>
+      <VideoBackG />
+      <div className={styles.div}>
+        <Header />
 
         <div>
-          <label htmlFor="language-select">Select Language:</label>
-          <select id="language-select" value={language} onChange={handleLanguageChange}>
-            <option value="en">English</option>
-            <option value="de">German</option>
-            <option value="sk">Slovak</option>
-            <option value="cs">Czech</option>
-          </select>
-        </div>
-      </div>
+          <h1>{getText('welcome')}</h1>
+          <p>{getText('description')}</p>
 
-      <footer>
-        <p>Contact us: example@example.com</p>
-      </footer>
-    </div>
+          <div>
+            <label htmlFor="language-select">Select Language:</label>
+            <select id="language-select" value={language} onChange={handleLanguageChange}>
+              <option value="en">English</option>
+              <option value="de">German</option>
+              <option value="sk">Slovak</option>
+              <option value="cs">Czech</option>
+            </select>
+          </div>
+        </div>
+
+        <footer>
+          <p>Contact us: example@example.com</p>
+        </footer>
+      </div>
+    </>
   );
 };
 

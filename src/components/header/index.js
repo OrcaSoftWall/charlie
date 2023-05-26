@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import styles from "./index.module.css";
 import translations from '../../utils/translations';
-import image from "../../images/Cahrlie_logo.png"
+import image from "../../images/Cahrlie_logo2.png"
+import en_round from "../../images/DE.png"
 
 const Header = () => {
     const [language, setLanguage] = useState('en');
@@ -21,7 +22,7 @@ const Header = () => {
     };
 
     return (
-        <div>
+        <div className={styles.frame}>
             <img src={image} className={styles.image} alt="Charlie Vrtual Assistant Logo" />
             <nav>
                 <ul className={styles.tabs}>
@@ -42,7 +43,7 @@ const Header = () => {
                     </li>
                 </ul>
             </nav>
-
+            <img src={en_round} className={styles.image} alt="EN" />
             <div>
                 <label htmlFor="language-select">Select Language:</label>
                 <select id="language-select" value={language} onChange={handleLanguageChange}>

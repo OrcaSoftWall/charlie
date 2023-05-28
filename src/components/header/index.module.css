@@ -1,12 +1,13 @@
 .frame {
-position: absolute;
-top: 0;
-/* background: rgba(0, 0, 0, 0.5); */
-color: #f1f1f1;
-width: 100%;
+    position: absolute;
+    top: 0;
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #f1f1f1;
+    width: 100%;
 }
 
 .image {
+    float: left;
     max-width: 200px;
     padding: 16px;
     background-color: transparent;
@@ -38,4 +39,71 @@ width: 100%;
 .tabs li:hover {
     background-color: #555;
     font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+/* 
+.language {
+    float: right;
+} */
+
+
+
+
+
+.frame {
+    position: absolute;
+    top: 0;
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #f1f1f1;
+    width: 100%;
+}
+
+.image {
+    float: left;
+    max-width: 200px;
+    padding: 16px;
+    background-color: transparent;
+}
+
+.languageButtons {
+    display: flex;
+    width: 200px;
+    gap: 10px; /* Adjust the gap between buttons as needed */
+    align-items: center;
+}
+
+/* nav */
+.tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1111119f;
+}
+
+.tabs li , .tabs a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    min-width: 75px;
+    /* to prevent jumping when hovered */
+    padding: 14px;
+    text-decoration: none;
+    font-family: segoe script;
+}
+
+/* Change the link color to #555 (gray) on hover */
+.tabs li:hover, .tabs a:hover {
+    background-color: #555;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
 }

@@ -25,6 +25,7 @@ class ErrorBoundary extends Component {
                     <h1>Something went wrong</h1>
 
                     <h4>Here I can put any fallback</h4>
+                     <h3>{this.state}</h3>    {/* Error? */}
                 </>
             )
             // console.log("ErrorBoundary>>>>>>>>>>>>>>>>>>>>>>>>>")

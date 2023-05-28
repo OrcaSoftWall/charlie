@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 import { useContext } from 'react';
-import { LanguageContext } from './context.js';
+import LanguageContext from './context.js';
 
 const LazyLandingPage = lazy(() => import('./pages/landing-page'))
 // const LazyShareThoughtsPage = lazy(() => import('./pages/share-thoughts'))

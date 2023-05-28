@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import  LanguageContext from '../../context';
+import LanguageContext from '../../context.js';
 import translations from '../../utils/translations.js';
 
 /**
@@ -8,7 +8,8 @@ import translations from '../../utils/translations.js';
  * @returns
  */
 export default function MultiLingualContent({ contentID }) {
-  const { language } = useContext(LanguageContext);
-
-  return translations[language][contentID];
+    const { language } = useContext(LanguageContext);
+    console.log(translations[language][contentID]);
+    return translations[language][contentID];
 }
+

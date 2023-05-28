@@ -1,20 +1,19 @@
 import { useState } from "react";
-import LandingPage from './pages/landing-page';
-import { LanguageContext } from './context.js';
+import LanguageContext from './context.js';
 
 const App = (props) => {
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState("sk");
 
-  function toggleLanguage() {
-    setLanguage((language) => (language === "en" ? "de" : "en"));
-  }
+  const selectLanguage = (selectedLanguage) => {
+    setLanguage(selectedLanguage);
+  };
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage }}>
-      {/* {loading ? <Spinner /> : props.children} */}
-      {props.children}
-    </LanguageContext.Provider>
+    <LanguageContext.Provider value={{ language, selectLanguage }}>
+    {props.children}
+  </LanguageContext.Provider>
   );
 };
 
 export default App;
+

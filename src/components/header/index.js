@@ -1,58 +1,84 @@
-import { useState } from 'react';
-import styles from "./index.module.css";
-import translations from '../../utils/translations';
-import image from "../../images/Cahrlie_logo2.png"
-import en_round from "../../images/DE.png"
+import { useState, useContext } from 'react';
+import styles from './index.module.css';
+import image from '../../images/Cahrlie_logo2.png';
+import DE_HearthImage from '../../images/DE_Hearth.png';
+import DE_SquareImage from '../../images/DE_Square.png';
+import CZ_HearthImage from '../../images/CH_Hearth.png';
+import CZ_SquareImage from '../../images/CH_Square.png';
+import EN_HearthImage from '../../images/UK_Hearth.png';
+import EN_SquareImage from '../../images/UK_Square.png';
+import SK_HearthImage from '../../images/SK_Hearth.png';
+import SK_SquareImage from '../../images/SK_Square.png';
+import LanguageButton from '../LanguagleButton';
+import MultiLingualContent from '../MultyLingualContent';
+// import links from '../../utils/navigation';
+import Link from '../link';
 
 const Header = () => {
-    const [language, setLanguage] = useState('en');
     const [activeTab, setActiveTab] = useState('home');
 
-    const handleLanguageChange = (e) => {
-        setLanguage(e.target.value);
-    };
+    const languageButtons = [
+        { id: 1, language: "en", hoverImage: EN_HearthImage, nonHoverImage: EN_SquareImage },
+        { id: 2, language: "de", hoverImage: DE_HearthImage, nonHoverImage: DE_SquareImage },
+        { id: 3, language: "sk", hoverImage: SK_HearthImage, nonHoverImage: SK_SquareImage },
+        { id: 4, language: "cs", hoverImage: CZ_HearthImage, nonHoverImage: CZ_SquareImage }
+    ];
+
+    const links = [
+        { contentID: 'home', link: '/' },
+        { contentID: 'services', link: '/services' },
+        { contentID: 'pricing', link: '/pricing' },
+        { contentID: 'about', link: '/about' },
+        { contentID: 'contact', link: '/contact' },
+    ];
+
 
     const handleTabClick = (tab) => {
         setActiveTab(tab);
     };
 
-    const getText = (key) => {
-        // Language specific text
-        return translations[language][key];
-    };
-
     return (
         <div className={styles.frame}>
-            <img src={image} className={styles.image} alt="Charlie Vrtual Assistant Logo" />
+            <div className={styles.logo}>
+                <img src={image} className={styles.image} alt="Charlie Virtual Assistant Logo" />
+                <div className={styles.languageButtons}>
+                    {languageButtons.map((button) => (
+                        <LanguageButton
+                            key={button.id}
+                            language={button.language}
+                            hoverImage={button.hoverImage}
+                            nonHoverImage={button.nonHoverImage}
+                        />
+                    ))}
+                </div>
+            </div>
             <nav>
                 <ul className={styles.tabs}>
-                    <li className={activeTab === 'home' ? 'active' : ''} onClick={() => handleTabClick('home')}>
-                        {getText('home')}
+                    {/* <li className={activeTab === 'home' ? 'active' : ''} onClick={() => handleTabClick('home')}>
+                        <MultiLingualContent contentID="home" />
                     </li>
                     <li className={activeTab === 'services' ? 'active' : ''} onClick={() => handleTabClick('services')}>
-                        {getText('services')}
+                        <MultiLingualContent contentID="services" />
                     </li>
                     <li className={activeTab === 'pricing' ? 'active' : ''} onClick={() => handleTabClick('pricing')}>
-                        {getText('pricing')}
+                        <MultiLingualContent contentID="pricing" />
                     </li>
                     <li className={activeTab === 'about' ? 'active' : ''} onClick={() => handleTabClick('about')}>
-                        {getText('about')}
+                        <MultiLingualContent contentID="about" />
                     </li>
                     <li className={activeTab === 'contact' ? 'active' : ''} onClick={() => handleTabClick('contact')}>
-                        {getText('contact')}
-                    </li>
-                </ul>
+                        <MultiLingualContent contentID="contact" />
+                    </li> */}
+                {links.map((nav) => (
+                    <Link
+                    key={nav.contentID}
+                    href={nav.link}
+                    title={<MultiLingualContent contentID={nav.contentID} />}
+                    type="header"
+                    />
+                    ))}
+                    </ul>
             </nav>
-            <img src={en_round} className={styles.image} alt="EN" />
-            <div>
-                <label htmlFor="language-select">Select Language:</label>
-                <select id="language-select" value={language} onChange={handleLanguageChange}>
-                    <option value="en">English</option>
-                    <option value="de">German</option>
-                    <option value="sk">Slovak</option>
-                    <option value="cs">Czech</option>
-                </select>
-            </div>
         </div>
     );
 };

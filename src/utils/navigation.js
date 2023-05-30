@@ -1,29 +1,14 @@
-const getNavigation =
-    [
-        {
-            title: "Home",
-            link: "/"
-        },
-        {
-            title: "Services",
-            link: "/services"
-        },
-        {
-            title: "Pricing",
-            link: "pricing"
-        },
-        {
-            title: "About",
-            link: "/About"
-        },
-        {
-            title: "Contact",
-            link: "/contact"
-        }
-    ]
+    const links = [
+        { contentID: 'home', link: '/home' },
+        { contentID: 'services', link: '/services' },
+        { contentID: 'pricing', link: '/pricing' },
+        { contentID: 'about', link: '/about' },
+        { contentID: 'portfolio', link: '/portfolio' },
+        { contentID: 'contact', link: '/contact' },
+    ];
 
 
-export default getNavigation
+export default links
 
 
 // const getNavigation = (user) => {

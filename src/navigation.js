@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import LanguageContext from './context.js';
 
 const LazyLandingPage = lazy(() => import('./pages/landing-page'))
+const LazyHomePage = lazy(() => import('./pages/home-page'))
 // const LazyShareThoughtsPage = lazy(() => import('./pages/share-thoughts'))
 // const LazyRegisterPage = lazy(() => import('./pages/register'))
 // const LazyLoginPage = lazy(() => import('./pages/login'))
@@ -20,6 +21,8 @@ const LazyNavigation = () => {
             <Suspense fallback={<h1>Loading</h1>}>
                 <Routes>
                     <Route path="/" element={<LazyLandingPage />} />
+                    <Route path="/home" element={<LazyHomePage />} />
+
                     {/* <Route path="/share" element={loggedIn ? (<LazyShareThoughtsPage />) : (<Navigate replace to="/login" />)} />
                     <Route path="/register" element={!loggedIn ? (<LazyRegisterPage />) : (<Navigate replace to="/" />)} />
                     <Route path="/login" element={!loggedIn ? (<LazyLoginPage />) : (<Navigate replace to="/" />)} />

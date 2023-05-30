@@ -11,8 +11,9 @@ import SK_HearthImage from '../../images/SK_Hearth.png';
 import SK_SquareImage from '../../images/SK_Square.png';
 import LanguageButton from '../LanguagleButton';
 import MultiLingualContent from '../MultyLingualContent';
-// import links from '../../utils/navigation';
+import links from '../../utils/navigation';
 import Link from '../link';
+import Player from '../../utils/audioplayer';
 
 const Header = () => {
     const [activeTab, setActiveTab] = useState('home');
@@ -24,13 +25,14 @@ const Header = () => {
         { id: 4, language: "cs", hoverImage: CZ_HearthImage, nonHoverImage: CZ_SquareImage }
     ];
 
-    const links = [
-        { contentID: 'home', link: '/' },
-        { contentID: 'services', link: '/services' },
-        { contentID: 'pricing', link: '/pricing' },
-        { contentID: 'about', link: '/about' },
-        { contentID: 'contact', link: '/contact' },
-    ];
+    // const links = [
+    //     { contentID: 'home', link: '/home' },
+    //     { contentID: 'services', link: '/services' },
+    //     { contentID: 'pricing', link: '/pricing' },
+    //     { contentID: 'about', link: '/about' },
+    //     { contentID: 'portfolio', link: '/portfolio' },
+    //     { contentID: 'contact', link: '/contact' },
+    // ];
 
 
     const handleTabClick = (tab) => {
@@ -40,18 +42,11 @@ const Header = () => {
     return (
         <div className={styles.frame}>
             <div className={styles.logo}>
-                <img src={image} className={styles.image} alt="Charlie Virtual Assistant Logo" />
-                <div className={styles.languageButtons}>
-                    {languageButtons.map((button) => (
-                        <LanguageButton
-                            key={button.id}
-                            language={button.language}
-                            hoverImage={button.hoverImage}
-                            nonHoverImage={button.nonHoverImage}
-                        />
-                    ))}
-                </div>
+                <Link title={<img src={image} className={styles.image} alt="Charlie Virtual Assistant Logo" />} href="/" type="header" />
             </div>
+
+            {/* <Player /> */}
+
             <nav>
                 <ul className={styles.tabs}>
                     {/* <li className={activeTab === 'home' ? 'active' : ''} onClick={() => handleTabClick('home')}>
@@ -69,15 +64,25 @@ const Header = () => {
                     <li className={activeTab === 'contact' ? 'active' : ''} onClick={() => handleTabClick('contact')}>
                         <MultiLingualContent contentID="contact" />
                     </li> */}
-                {links.map((nav) => (
-                    <Link
-                    key={nav.contentID}
-                    href={nav.link}
-                    title={<MultiLingualContent contentID={nav.contentID} />}
-                    type="header"
-                    />
+                    {links.map((nav) => (
+                        <Link
+                            key={nav.contentID}
+                            href={nav.link}
+                            title={<MultiLingualContent contentID={nav.contentID} />}
+                            type="header"
+                        />
                     ))}
-                    </ul>
+                    <div className={styles.languageButtons}>
+                        {languageButtons.map((button) => (
+                            <LanguageButton
+                                key={button.id}
+                                language={button.language}
+                                hoverImage={button.hoverImage}
+                                nonHoverImage={button.nonHoverImage}
+                            />
+                        ))}
+                    </div>
+                </ul>
             </nav>
         </div>
     );

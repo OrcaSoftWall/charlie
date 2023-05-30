@@ -1,0 +1,43 @@
+.frame {
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid red;
+    color: #f1f1f1;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    float: left;
+    max-width: 200px;
+    padding: 10px;
+}
+
+
+/* 
+.tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1111119f;
+}
+
+.tabs li,
+.tabs a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    min-width: 75px;
+
+    padding: 14px;
+    text-decoration: none;
+    font-family: segoe script;
+}
+
+.tabs li:hover,
+.tabs a:hover {
+    background-color: #555;
+    font-weight: bold;
+} */

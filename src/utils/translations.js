@@ -7,6 +7,7 @@
       services: 'Services',
       pricing: 'Pricing',
       about: 'About',
+      portfolio: 'Portfolio',
       contact: 'Contact',
     },
     de: {
@@ -17,6 +18,7 @@
       services: 'Dienstleistungen',
       pricing: 'Preise',
       about: 'Über uns',
+      portfolio: 'Portfolio',
       contact: 'Kontakt',
     },
     sk: {
@@ -25,8 +27,9 @@
       getStarted: 'Začať',
       home: 'Domov',
       services: 'Služby',
-      pricing: 'Ceny',
+      pricing: 'Cenník',
       about: 'O nás',
+      portfolio: 'Portfólio',
       contact: 'Kontakt',
     },
     cs: {
@@ -37,6 +40,7 @@
       services: 'Služby',
       pricing: 'Ceník',
       about: 'O nás',
+      portfolio: 'Portfólio',
       contact: 'Kontakt',
     },
 };

@@ -4,18 +4,20 @@ import Header from '../../components/header';
 import VideoBackG from '../../components/video';
 import MultiLingualContent from '../../components/MultyLingualContent';
 import LanguageContext from '../../context';
-import PageLayout from '../../components/page-layout';
+import Footer from '../../components/footer';
+import ServicesCard from '../../components/services-card';
+import Title from '../../components/title';
 
-const LandingPage = () => {
-  const { language, selectLanguage } = useContext(LanguageContext);
+const HomePage = () => {
+  // const { language, selectLanguage } = useContext(LanguageContext);
 
   return (
     <>
-      <VideoBackG />
-      <PageLayout>
-        <div className={styles.div}>
-          {/* <Header /> */}
-          {/* <div>
+      <div className={styles.div}>
+        <Header />
+        <Title title="Title"/>
+        <ServicesCard />
+        <div>
           <h1>
             <MultiLingualContent contentID="welcome" />
           </h1>
@@ -24,14 +26,11 @@ const LandingPage = () => {
           </p>
         </div>
 
-        <footer>
-          <p>Contact us: example@example.com</p>
-        </footer> */}
-        </div>
-      </PageLayout>
 
+        <Footer />
+      </div>
     </>
   );
 };
 
-export default LandingPage;
+export default HomePage;

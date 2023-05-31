@@ -15,7 +15,7 @@
       description: 'Wir bieten professionelle Virtuelle Assistenten Services, um Ihnen bei Ihren Aufgaben zu helfen.',
       getStarted: 'Loslegen',
       home: 'Startseite',
-      services: 'Dienstleistungen',
+      services: 'Leistungen',
       pricing: 'Preise',
       about: 'Über uns',
       portfolio: 'Portfolio',

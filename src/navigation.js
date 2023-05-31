@@ -5,6 +5,7 @@ import LanguageContext from './context.js';
 
 const LazyLandingPage = lazy(() => import('./pages/landing-page'))
 const LazyHomePage = lazy(() => import('./pages/home-page'))
+const LazyServicesPage = lazy(() => import('./pages/services-page'))
 // const LazyShareThoughtsPage = lazy(() => import('./pages/share-thoughts'))
 // const LazyRegisterPage = lazy(() => import('./pages/register'))
 // const LazyLoginPage = lazy(() => import('./pages/login'))
@@ -22,6 +23,7 @@ const LazyNavigation = () => {
                 <Routes>
                     <Route path="/" element={<LazyLandingPage />} />
                     <Route path="/home" element={<LazyHomePage />} />
+                    <Route path="/services" element={<LazyServicesPage />} />
 
                     {/* <Route path="/share" element={loggedIn ? (<LazyShareThoughtsPage />) : (<Navigate replace to="/login" />)} />
                     <Route path="/register" element={!loggedIn ? (<LazyRegisterPage />) : (<Navigate replace to="/" />)} />

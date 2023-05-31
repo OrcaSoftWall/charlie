@@ -1,0 +1,16 @@
+/* @import url('https://fonts.cdnfonts.com/css/white-angelica'); */
+
+@font-face {
+    font-family: 'White Angelica';
+    src: local('White Angelica'),
+        url("../../fonts/WhiteAngelica.ttf") format("truetype");
+
+}
+
+.title {
+    text-align: center;
+    color: #888;
+    margin-bottom: 2%;
+    font-family: 'White Angelica', sans-serif;
+    font-weight: bold;
+}

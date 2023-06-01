@@ -1,6 +1,6 @@
 .frame {
-    position: relative;
-    background: rgba(88, 88, 88, 0.6);
+    /* position: fixed; */
+    bottom: 0;
     color: #636262;
     width: 100%;
 }
@@ -12,39 +12,9 @@
     background-color: transparent;
 }
 
-
-/* nav */
-.tabs {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #1111119f;
-}
-
-.tabs li,
-.tabs a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    min-width: 75px;
-    /* to prevent jumping when hovered */
-    padding: 14px;
-    text-decoration: none;
-    font-family: segoe script;
-}
-
-/* Change the link color to #555 (gray) on hover */
-.tabs li:hover,
-.tabs a:hover {
-    /* background-color: #555; */
-    font-weight: bold;
-}
-
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, rgb(157 154 154) 0%, rgb(255 255 255) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 100%)
 }

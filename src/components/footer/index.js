@@ -28,21 +28,6 @@ const Footer = () => {
                     </div>
                 </p>
             </div>
-
-            {/* <Player /> */}
-
-            {/* <nav>
-                <ul className={styles.tabs}>
-                    {links.map((nav) => (
-                        <Link
-                            key={nav.contentID}
-                            href={nav.link}
-                            title={<MultiLingualContent contentID={nav.contentID} />}
-                            type="header"
-                        />
-                    ))}
-                </ul>
-            </nav> */}
         </div>
     );
 };

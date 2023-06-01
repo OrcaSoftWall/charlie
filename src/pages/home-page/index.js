@@ -7,6 +7,7 @@ import LanguageContext from '../../context';
 import Footer from '../../components/footer';
 import ServicesCard from '../../components/services-card';
 // import Title from '../../components/title';
+import PageLayout from '../../components/page-layout';
 
 
 
@@ -20,7 +21,7 @@ const Introduction = () => {
   return (
     <div>
       <p>
-        Welcome to our virtual assistant site, where simplicity meets exceptional results. We understand the importance of efficiency, reliability, and delivering flawless outcomes for all your tasks and projects. With our step-by-step process, you can experience a seamless journey towards achieving your goals. Let us guide you through the path of successful collaboration, making your life easier and your projects a resounding success.
+        Meet Charlie - your virtual assistant! We understand the importance of Efficiency, Reliability, and delivering Flawless outcomes for all your tasks and projects. With our step-by-step process, you can experience a seamless journey towards achieving your goals. Let us guide you through the path of successful collaboration, making your life easier and your projects a resounding success.
       </p>
     </div>
   );
@@ -92,9 +93,7 @@ const HomePage = () => {
 
   return (
     <>
-      <div className={styles.div}>
-        <Header />
-        {/* <Title title="Title" /> */}
+      <PageLayout>
         <div className={styles.container}>
           <div className={styles.road}>
             <Title />
@@ -103,10 +102,7 @@ const HomePage = () => {
             <Conclusion />
           </div>
         </div>
-
-
-        <Footer />
-      </div>
+      </PageLayout>
     </>
   );
 };

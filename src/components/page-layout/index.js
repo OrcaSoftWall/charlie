@@ -9,7 +9,7 @@ const PageLayout = (props) => {
       <Header />
         {/* <Aside /> */}
           {props.children}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

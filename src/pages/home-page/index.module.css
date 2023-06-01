@@ -6,14 +6,15 @@
 } */
 
 .container {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .road {
   max-width: 600px;
+  margin: 0 auto;
   padding: 20px;
   background-color: #f3f3f3;
   border-radius: 10px;

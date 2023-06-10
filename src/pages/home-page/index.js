@@ -8,6 +8,7 @@ import Footer from '../../components/footer';
 import ServicesCard from '../../components/services-card';
 // import Title from '../../components/title';
 import PageLayout from '../../components/page-layout';
+import Carousel from '../../components/carousel_old';
 
 
 
@@ -94,6 +95,7 @@ const HomePage = () => {
   return (
     <>
       <PageLayout>
+        <Carousel />
         <div className={styles.container}>
           <div className={styles.road}>
             <Title />

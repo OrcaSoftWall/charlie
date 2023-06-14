@@ -1,32 +1,35 @@
+.accordion-item {
+    display: flex;
+}
 
 
-  .accordion-title {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      cursor: pointer;
-      background-color: #1111119f;
-  }
+.accordion-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #1111119f;
+}
 
-  .accordion-title:hover {
-      background-color: #1111119f;
-  }
+.accordion-title:hover {
+    background-color: #1111119f;
+}
 
-  .accordion-title,
-  .accordion-content {
-      padding: 1rem;
-  }
+.accordion-title,
+.accordion-content {
+    padding: 1rem;
+}
 
-  .accordion-content {
-      background-color: #3131319f;
-  }
+.accordion-content {
+    background-color: #3131319f;
+}
 
-  @media screen and (max-width: 700px) {
-      body {
-          font-size: 18px;
-      }
+@media screen and (max-width: 700px) {
+    body {
+        font-size: 18px;
+    }
 
-      .accordion {
-          width: 90%;
-      }
-  }
+    .accordion {
+        width: 90%;
+    }
+}

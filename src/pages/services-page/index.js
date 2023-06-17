@@ -9,6 +9,7 @@ import Title from '../../components/title';
 import Accordion from '../../components/accordion';
 import { accordionData } from '../../utils/accordionData';
 import HorizontalAccordion from '../../components/horizontalAccordion';
+import Services from '../../components/services-bundle/Chess-card';
 
 const HomePage = () => {
   // const { language, selectLanguage } = useContext(LanguageContext);
@@ -17,14 +18,11 @@ const HomePage = () => {
     <>
       <div className={styles.div}>
         <Header />
-        <Title title="Title" />
-        {/* <ServicesCard /> */}
-        <HorizontalAccordion items={accordionData} />
-        {/* <div className={styles.accordion}>
-          {accordionData.map(({ title, backgroundImage, content }) => (
-            <Accordion title={title} backgroundImage={backgroundImage} content={content} />
-          ))}
-        </div> */}
+        <Title title="Our Services" />
+
+        <Services items={accordionData} />
+        {/* <HorizontalAccordion items={accordionData} /> */}
+        
         <div>
           <h1>
             <MultiLingualContent contentID="welcome" />

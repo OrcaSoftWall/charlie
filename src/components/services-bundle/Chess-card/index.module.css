@@ -1,0 +1,14 @@
+.board {
+    margin: 10%;
+    display: flex;
+    position: center;
+    box-shadow: 0 30px 40px rgba(0,0,0,0.2);
+}
+
+.board::before {
+    content: "";
+  }
+  
+.board::after {
+    content: "";
+  }

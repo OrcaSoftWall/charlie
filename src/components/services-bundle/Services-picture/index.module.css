@@ -1,0 +1,7 @@
+.image {
+    flex: 0 0 auto;
+    width: 338px;
+    height: 600px;
+    background-size: cover;
+    background-position: left;
+}

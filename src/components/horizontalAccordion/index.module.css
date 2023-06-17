@@ -9,7 +9,7 @@
     flex: 1 0 33.33%;
     /* Adjust the width based on your layout needs */
     overflow: hidden;
-    transition: flex-basis 0.5s ease;
+    transition: flex-basis 2.5s ease;
     /* Smooth transition for opening and closing */
 }
 
@@ -19,8 +19,8 @@
 }
 
 .container {
-    /* flex: 1 1 auto; */
-    /* margin-bottom: 20px; */
+    flex: 1 1 auto;
+    margin-bottom: 20px;
     display: flex;
     /* Adjust the alignment and spacing as needed */
     align-items: center;
@@ -52,7 +52,7 @@
 }
 
 .right {
-    max-width: 400px;
+    /* max-width: 400px; */
     flex: 1;
     display: flex;
     justify-content: flex-end;

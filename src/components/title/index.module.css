@@ -10,7 +10,9 @@
 .title {
     text-align: center;
     color: #888;
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
     font-family: 'White Angelica', sans-serif;
     font-weight: bold;
+    padding-top: 50px;
+    font-size: 3rem;
 }

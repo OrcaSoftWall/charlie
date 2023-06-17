@@ -19,3 +19,8 @@ code {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
 }
+
+body {
+  background-color: #F1EEE9;
+  min-height: 100vh;
+}

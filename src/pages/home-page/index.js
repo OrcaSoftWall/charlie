@@ -96,14 +96,14 @@ const HomePage = () => {
     <>
       <PageLayout>
         <Carousel />
-        <div className={styles.container}>
+        {/* <div className={styles.container}>
           <div className={styles.road}>
             <Title />
             <Introduction />
             <Steps />
             <Conclusion />
           </div>
-        </div>
+        </div> */}
       </PageLayout>
     </>
   );

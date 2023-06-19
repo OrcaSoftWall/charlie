@@ -4,6 +4,7 @@ import LanguageContext from "../../context.js";
 const LanguageButton = (props) => {
   const { selectLanguage } = useContext(LanguageContext);
   const [isHover, setIsHover] = useState(false);
+  // const [isSelected, setIsSelected] = useState(false);
 
   const handleMouseEnter = () => {
     setIsHover(true);
@@ -13,6 +14,10 @@ const LanguageButton = (props) => {
   const handleMouseLeave = () => {
     setIsHover(false);
   };
+
+  // const handleOnSelect = () => {
+  //   setIsSelected(true);
+  // }
 
   const boxStyle = {
     display: 'inline',

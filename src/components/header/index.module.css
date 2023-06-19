@@ -55,3 +55,86 @@
     display: flex;
     justify-content: space-between;
 }
+
+/* .menuBar {
+    width:25px;
+    height:25px;
+} */
+
+@media screen and (max-width: 1000px) {
+    .tabs {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: calc(100vh - 85px);
+        /* position: absolute; */
+        /* margin-top: 0; */
+        /* top: 85px; */
+        border: 2px solid #ececee;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        justify-content: flex-start;
+    }
+
+    .nav-side-menu.start {
+        background: #fff;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .nav-links {
+        text-align: center;
+        padding: 1.5rem;
+        width: 100%;
+        color: #000;
+        display: table;
+        transition: 0s;
+    }
+
+    .nav-links:hover {
+        color: #fff;
+    }
+
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(25%, 50%);
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .fa-times {
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .nav-links-button {
+        display: block;
+        padding: 12px 30px;
+        margin: 25px auto;
+        border-radius: 10px;
+        background: #000;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.3rem;
+    }
+
+    button {
+        display: none;
+    }
+
+    .nav-items {
+        height: auto;
+    }
+}

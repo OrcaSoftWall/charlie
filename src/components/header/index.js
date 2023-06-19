@@ -14,6 +14,7 @@ import MultiLingualContent from '../MultyLingualContent';
 import links from '../../utils/navigation';
 import Link from '../link';
 import Player from '../../utils/audioplayer';
+import menuBar from '../../images/menu-clip.png'
 
 const Header = () => {
     const [activeTab, setActiveTab] = useState('home');
@@ -24,16 +25,6 @@ const Header = () => {
         { id: 3, language: "sk", hoverImage: SK_HearthImage, nonHoverImage: SK_SquareImage },
         { id: 4, language: "cs", hoverImage: CZ_HearthImage, nonHoverImage: CZ_SquareImage }
     ];
-
-    // const links = [
-    //     { contentID: 'home', link: '/home' },
-    //     { contentID: 'services', link: '/services' },
-    //     { contentID: 'pricing', link: '/pricing' },
-    //     { contentID: 'about', link: '/about' },
-    //     { contentID: 'portfolio', link: '/portfolio' },
-    //     { contentID: 'contact', link: '/contact' },
-    // ];
-
 
     const handleTabClick = (tab) => {
         setActiveTab(tab);
@@ -49,29 +40,17 @@ const Header = () => {
 
             <nav>
                 <ul className={styles.tabs}>
-                    {/* <li className={activeTab === 'home' ? 'active' : ''} onClick={() => handleTabClick('home')}>
-                        <MultiLingualContent contentID="home" />
-                    </li>
-                    <li className={activeTab === 'services' ? 'active' : ''} onClick={() => handleTabClick('services')}>
-                        <MultiLingualContent contentID="services" />
-                    </li>
-                    <li className={activeTab === 'pricing' ? 'active' : ''} onClick={() => handleTabClick('pricing')}>
-                        <MultiLingualContent contentID="pricing" />
-                    </li>
-                    <li className={activeTab === 'about' ? 'active' : ''} onClick={() => handleTabClick('about')}>
-                        <MultiLingualContent contentID="about" />
-                    </li>
-                    <li className={activeTab === 'contact' ? 'active' : ''} onClick={() => handleTabClick('contact')}>
-                        <MultiLingualContent contentID="contact" />
-                    </li> */}
                     {links.map((nav) => (
                         <Link
-                            key={nav.contentID}
-                            href={nav.link}
-                            title={<MultiLingualContent contentID={nav.contentID} />}
-                            type="header"
+                        key={nav.contentID}
+                        href={nav.link}
+                        title={<MultiLingualContent contentID={nav.contentID} />}
+                        type="header"
                         />
                     ))}
+                        {/* <div className={styles.menuBar}>
+                            <img src={menuBar} />
+                        </div> */}
                     <div className={styles.languageButtons}>
                         {languageButtons.map((button) => (
                             <LanguageButton

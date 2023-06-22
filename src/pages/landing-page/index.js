@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import styles from './index.module.css';
 import Header from '../../components/header';
+import Footer from '../../components/footer';
 import VideoBackG from '../../components/video';
 import MultiLingualContent from '../../components/MultyLingualContent';
 import LanguageContext from '../../context';
@@ -13,21 +14,10 @@ const LandingPage = () => {
     <>
       <VideoBackG />
       <PageLayout>
-        <div className={styles.div}>
-          {/* <Header /> */}
-          {/* <div>
-          <h1>
-            <MultiLingualContent contentID="welcome" />
-          </h1>
-          <p>
-            <MultiLingualContent contentID="description" />
-          </p>
-        </div>
+      <div className={styles.div}>
 
-        <footer>
-          <p>Contact us: example@example.com</p>
-        </footer> */}
-        </div>
+      </div>
+
       </PageLayout>
 
     </>

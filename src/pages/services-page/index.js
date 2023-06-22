@@ -23,14 +23,15 @@ const HomePage = () => {
         <Services items={accordionData} />
         {/* <HorizontalAccordion items={accordionData} /> */}
         
-        <div>
+        {/* <div>
           <h1>
             <MultiLingualContent contentID="welcome" />
           </h1>
           <p>
             <MultiLingualContent contentID="description" />
           </p>
-        </div>
+        </div> */}
+        
         <Footer />
       </div>
     </>

@@ -13,11 +13,15 @@ import LanguageButton from '../LanguagleButton';
 import MultiLingualContent from '../MultyLingualContent';
 import links from '../../utils/navigation';
 import Link from '../link';
-import Player from '../../utils/audioplayer';
-import menuBar from '../../images/menu-clip.png'
+import Navbar from '../navbar';
+import menuBarIcon from '../../images/menu-bar.png'
 
 const Header = () => {
-    const [activeTab, setActiveTab] = useState('home');
+    // const [activeTab, setActiveTab] = useState('home');
+
+    const [click, setClick] = useState(false)
+    const handleClick = () => setClick(!click)
+    const closeMobileMenu = () => setClick(false)
 
     const languageButtons = [
         { id: 1, language: "en", hoverImage: EN_HearthImage, nonHoverImage: EN_SquareImage },
@@ -26,9 +30,11 @@ const Header = () => {
         { id: 4, language: "cs", hoverImage: CZ_HearthImage, nonHoverImage: CZ_SquareImage }
     ];
 
-    const handleTabClick = (tab) => {
-        setActiveTab(tab);
-    };
+    // const handleTabClick = (tab) => {
+    //     setActiveTab(tab);
+    // };
+
+
 
     return (
         <div className={styles.frame}>
@@ -36,21 +42,20 @@ const Header = () => {
                 <Link title={<img src={image} className={styles.image} alt="Charlie Virtual Assistant Logo" />} href="/" type="header" />
             </div>
 
-            {/* <Player /> */}
 
             <nav>
                 <ul className={styles.tabs}>
                     {links.map((nav) => (
                         <Link
-                        key={nav.contentID}
-                        href={nav.link}
-                        title={<MultiLingualContent contentID={nav.contentID} />}
-                        type="header"
+                            key={nav.contentID}
+                            href={nav.link}
+                            title={<MultiLingualContent contentID={nav.contentID} />}
+                            type="header"
                         />
                     ))}
-                        {/* <div className={styles.menuBar}>
-                            <img src={menuBar} />
-                        </div> */}
+                <div className={styles["menu-icon"]} onClick={handleClick}>
+                    {click ? <img src={menuBarIcon} /> : <img src={menuBarIcon} />}
+                </div>
                     <div className={styles.languageButtons}>
                         {languageButtons.map((button) => (
                             <LanguageButton
@@ -63,6 +68,7 @@ const Header = () => {
                     </div>
                 </ul>
             </nav>
+            {/* <Navbar /> */}
         </div>
     );
 };

@@ -1,3 +1,5 @@
+import translations from "../../utils/translations";
+
 const slider = [
     {
         title: "Step 1: Discover Your Vision",

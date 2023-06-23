@@ -19,7 +19,7 @@ const Carousel = () => {
     return (
         <div className={styles.carousel}>
                 <div className={styles['carousel-content']}>
-                    <span>discover</span>
+                    <span>Charlie Virtual Assistant</span>
                     <h1>Our promise</h1>
                     <hr />
                     <p>At Charlie, we believe that working with us is an easy and rewarding experience. 
@@ -68,8 +68,8 @@ const Carousel = () => {
 
             >
                 {
-                    slider.map(data => (
-                        <SwiperSlide style={{ backgroundImage: `url(${data.url})` }} className={styles['myswiper-slider']}>
+                    slider.map((data, index) => (
+                        <SwiperSlide style={{ backgroundImage: `url(${data.url})` }} className={styles['myswiper-slider']} key={`${index}-carousel-div`} >
                             <div>
                                 <h2>{data.title}</h2>
                                 <p>{data.description}</p>

@@ -15,13 +15,15 @@ import links from '../../utils/navigation';
 import Link from '../link';
 import Navbar from '../navbar';
 import menuBarIcon from '../../images/menu-bar.png'
+import leftArrow from '../../images/left_arrow.png'
 
 const Header = () => {
     // const [activeTab, setActiveTab] = useState('home');
 
     const [click, setClick] = useState(false)
-    const handleClick = () => setClick(!click)
-    const closeMobileMenu = () => setClick(false)
+    const handleClick = () => { setClick(!click); setFade(!fade) }
+    const closeMobileMenu = () => { setClick(false); setFade(false) }
+    const [fade, setFade] = useState(false)
 
     const languageButtons = [
         { id: 1, language: "en", hoverImage: EN_HearthImage, nonHoverImage: EN_SquareImage },
@@ -30,10 +32,24 @@ const Header = () => {
         { id: 4, language: "cs", hoverImage: CZ_HearthImage, nonHoverImage: CZ_SquareImage }
     ];
 
-    // const handleTabClick = (tab) => {
-    //     setActiveTab(tab);
-    // };
-
+    const Dropmenu = () => {
+        return (
+            <div className={`${fade ? styles['fade'] : ""}`}  >
+                {
+                    links.map((nav) => (
+                        <Link
+                            key={nav.contentID}
+                            href={nav.link}
+                            title={<MultiLingualContent contentID={nav.contentID} />}
+                            type="header"
+                            onClick={closeMobileMenu}
+                            onAnimationEnd={() => setFade(false)}
+                        />
+                    ))
+                }
+            </div>
+        )
+    }
 
 
     return (
@@ -53,9 +69,9 @@ const Header = () => {
                             type="header"
                         />
                     ))}
-                <div className={styles["menu-icon"]} onClick={handleClick}>
-                    {click ? <img src={menuBarIcon} /> : <img src={menuBarIcon} />}
-                </div>
+                    <div className={styles["menu-icon"]} onClick={handleClick} >
+                        {click ? <img src={leftArrow} /> : <img src={menuBarIcon} />}
+                    </div>
                     <div className={styles.languageButtons}>
                         {languageButtons.map((button) => (
                             <LanguageButton
@@ -66,6 +82,11 @@ const Header = () => {
                             />
                         ))}
                     </div>
+                </ul>
+            </nav>
+            <nav className={`${styles.mobile} ${fade ? styles['fade'] : ""}`}>
+                <ul className={`${styles.tabs}`}>
+                    {click ? <Dropmenu /> : ""}
                 </ul>
             </nav>
             {/* <Navbar /> */}

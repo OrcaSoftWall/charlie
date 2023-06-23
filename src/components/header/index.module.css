@@ -48,6 +48,11 @@
     padding: 14px;
     text-decoration: none;
     font-family: segoe script;
+    /* font-family: -apple-system, BlinkMacSystemFont,
+        “Segoe UI”, “Roboto”, “Oxygen”,
+        “Ubuntu”, “Cantarell”, “Fira Sans”,
+        “Droid Sans”, “Helvetica Neue”, sans-serif; */
+    /* font-family: 'White Angelica'; */
 }
 
 /* Change the link color to #555 (gray) on hover */
@@ -58,8 +63,12 @@
 }
 
 .menu-icon img {
-    display:none;
+    display: none;
     height: 30px;
+}
+
+.mobile {
+    display: none;
 }
 
 @media screen and (max-width: 1000px) {
@@ -67,19 +76,6 @@
     /* .tabs li, */
     .tabs a {
         display: none;
-        /* flex-direction: column;
-        width: 200px;
-        height: calc(100vh - 85px); */
-
-        /* position: absolute; */
-        /* margin-top: 0; */
-        /* top: 85px; */
-
-        /* border: 2px solid #ececee;
-        left: -100%;
-        opacity: 1;
-        transition: all 0.5s ease;
-        justify-content: flex-start; */
     }
 
     .nav-side-menu.start {
@@ -138,5 +134,45 @@
 
     .nav-items {
         height: auto;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .mobile .tabs a {
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        /* height: calc(100vh - 85px); */
+    }
+}
+
+/* 
+.fade {
+    animation: fade-in-keyframes 1s;
+}
+
+@keyframes fade-in-keyframes {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+} */
+
+.fade {
+    animation: slidein 0.5s;
+}
+
+@keyframes slidein {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0%);
     }
 }

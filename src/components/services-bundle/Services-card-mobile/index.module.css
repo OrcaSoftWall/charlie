@@ -1,0 +1,27 @@
+/* .board {
+    margin: 4% 10%;
+    display: flex;
+    position: center;
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 48rem)  { */
+.board {
+    margin: 4% 10%;
+    display: flex;
+    flex-direction: column;
+    position: center;
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* } */
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .mobile {
+        display: block;
+    }
+}

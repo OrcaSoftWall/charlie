@@ -22,16 +22,16 @@ const Footer = () => {
                 <a href="/">
                     <img src={image} className={styles.image} alt="Charlie Virtual Assistant Logo" />
                 </a>
-                <p>VirtualCharlie s.r.o © 2023
-                    <div>
-                        <ul className={styles.links} >
-                            <li><a href="https://www.facebook.com/assistantCharlie" target="_blank">Facebook</a></li>
-                            <li><a href="https://www.linkedin.com/in/hani-kov%C3%A1%C4%8Dov%C3%A1-4b5048b9/" target="_blank">Linkedin</a></li>
-                            <li><a href="https://www.instagram.com/bunny_boy_the_traveller/" target="_blank">Instagram</a></li>
-                            <li><a href = "mailto: mariu6@gmail.com">Email</a></li>
-                        </ul>
-                    </div>
-                </p>
+                <div>
+                    <p>VirtualCharlie s.r.o © 2023</p>
+                    <ul className={styles.links} >
+                        <li><a href="https://www.facebook.com/assistantCharlie" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.linkedin.com/in/hani-kov%C3%A1%C4%8Dov%C3%A1-4b5048b9/" target="_blank">Linkedin</a></li>
+                        <li><a href="https://www.instagram.com/bunny_boy_the_traveller/" target="_blank">Instagram</a></li>
+                        <li><a href="mailto: mariu6@gmail.com">Email</a></li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     );

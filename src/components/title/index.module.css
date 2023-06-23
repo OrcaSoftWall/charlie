@@ -4,6 +4,12 @@
     font-family: 'White Angelica';
     src: local('White Angelica'),
         url("../../fonts/WhiteAngelica.ttf") format("truetype");
+    src: local('White Angelica'),
+        url("../../fonts/WhiteAngelicaRegular.eot") format("truetype");
+    src: local('White Angelica'),
+        url("../../fonts/WhiteAngelicaRegular.woff") format("truetype");
+    src: local('White Angelica'),
+        url("../../fonts/WhiteAngelicaRegular.woff2") format("truetype");
 
 }
 

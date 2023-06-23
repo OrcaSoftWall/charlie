@@ -9,7 +9,7 @@ import translations from '../../utils/translations.js';
  */
 export default function MultiLingualContent({ contentID }) {
     const { language } = useContext(LanguageContext);
-    console.log(translations[language][contentID]);
+    // console.log(translations[language][contentID]);
     return translations[language][contentID];
 }
 

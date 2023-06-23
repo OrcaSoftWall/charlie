@@ -1,4 +1,4 @@
-.content {
+/* .content {
     display: flex;
     align-items: center;
     padding: 45px;
@@ -6,19 +6,15 @@
 }
 
 
-/* .carousel-content {
-    width: 70%;
-} */
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 48rem) { */
     .content {
+        display: flex;
+        align-items: center;
         padding: 25px;
+        cursor: pointer;
     }
-
-    /* .carousel-content {
-        width: 100%;
-    } */
-}
+/* } */
 
 .carousel-content h1 {
     text-transform: capitalize;

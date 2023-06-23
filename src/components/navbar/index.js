@@ -22,13 +22,16 @@ function Navbar() {
                     </div>
                     <ul className={click ? `${styles["nav-menu"]} ${styles.active}` : `${styles["nav-menu"]}`}>
                         {links.map((nav) => (
-                            <Link
-                                className={`${styles["navbar-logo"]}`}
-                                onClick={closeMobileMenu}
-                                key={nav.contentID}
-                                href={nav.link}
-                                title={<MultiLingualContent contentID={nav.contentID} />}
-                                type="header" />
+                            <li className={styles["nav-item"]}>
+
+                                <Link
+                                    // className={({ isActive }) => { `${styles["nav-links"]} ${({isActive} ? styles["activated"] : "")}` }}
+                                    onClick={closeMobileMenu}
+                                    key={nav.contentID}
+                                    href={nav.link}
+                                    title={<MultiLingualContent contentID={nav.contentID} />}
+                                    type="header" />
+                            </li>
                         ))}
                     </ul>
                 </div>

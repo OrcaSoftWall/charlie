@@ -10,9 +10,11 @@ import Accordion from '../../components/accordion';
 import { accordionData } from '../../utils/accordionData';
 import HorizontalAccordion from '../../components/horizontalAccordion';
 import Services from '../../components/services-bundle/Chess-card';
+import ServicesMobile from '../../components/services-bundle/Services-card-mobile';
 
 const HomePage = () => {
   // const { language, selectLanguage } = useContext(LanguageContext);
+  const isMobile = window.innerWidth <= 1000
 
   return (
     <>
@@ -20,9 +22,13 @@ const HomePage = () => {
         <Header />
         <Title title="Our Services" />
 
-        <Services items={accordionData} />
+        {isMobile ? (
+          <ServicesMobile items={accordionData} />
+        ) : (
+          <Services items={accordionData} />
+        )}
         {/* <HorizontalAccordion items={accordionData} /> */}
-        
+
         {/* <div>
           <h1>
             <MultiLingualContent contentID="welcome" />
@@ -31,7 +37,7 @@ const HomePage = () => {
             <MultiLingualContent contentID="description" />
           </p>
         </div> */}
-        
+
         <Footer />
       </div>
     </>

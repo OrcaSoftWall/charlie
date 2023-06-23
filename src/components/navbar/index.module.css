@@ -5,3 +5,12 @@
 .menu-icon img {
     height:25px;
 }
+
+.nav-links {
+    color: blue;
+}
+
+activated {
+    color: red;
+}
+

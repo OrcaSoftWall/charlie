@@ -6,12 +6,11 @@ import LanguageContext from './context.js';
 const LazyLandingPage = lazy(() => import('./pages/landing-page'))
 const LazyHomePage = lazy(() => import('./pages/home-page'))
 const LazyServicesPage = lazy(() => import('./pages/services-page'))
-// const LazyShareThoughtsPage = lazy(() => import('./pages/share-thoughts'))
-// const LazyRegisterPage = lazy(() => import('./pages/register'))
-// const LazyLoginPage = lazy(() => import('./pages/login'))
-// const LazyProfilePage = lazy(() => import('./pages/profile'))
-// const LazyEditProfilePage = lazy(() => import('./pages/edit-user'))
-// const LazyErrorPage = lazy(() => import('./pages/error'))
+const LazyAboutPage = lazy(() => import('./pages/about-page'))
+const LazyPricingPage = lazy(() => import('./pages/pricing-page'))
+const LazyPortfolioPage = lazy(() => import('./pages/portfolio-page'))
+const LazyContactPage = lazy(() => import('./pages/contact-page'))
+
 
 const LazyNavigation = () => {
     const context = useContext(LanguageContext)
@@ -24,6 +23,10 @@ const LazyNavigation = () => {
                     <Route path="/" element={<LazyLandingPage />} />
                     <Route path="/home" element={<LazyHomePage />} />
                     <Route path="/services" element={<LazyServicesPage />} />
+                    <Route path="/about" element={<LazyAboutPage />} />
+                    <Route path="/pricing" element={<LazyPricingPage />} />
+                    <Route path="/portfolio" element={<LazyPortfolioPage />} />
+                    <Route path="/contact" element={<LazyContactPage />} />
 
                     {/* <Route path="/share" element={loggedIn ? (<LazyShareThoughtsPage />) : (<Navigate replace to="/login" />)} />
                     <Route path="/register" element={!loggedIn ? (<LazyRegisterPage />) : (<Navigate replace to="/" />)} />

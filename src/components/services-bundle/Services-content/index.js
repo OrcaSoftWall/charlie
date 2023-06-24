@@ -2,7 +2,7 @@ import styles from './index.module.css';
 
 const ServicesContent = (props) => {
 
-    return(
+    return (
     <div className={styles.content}>
         <div className={styles['carousel-content']}>
              <h1>{props.title}</h1>

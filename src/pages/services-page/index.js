@@ -20,7 +20,7 @@ const HomePage = () => {
     <>
       <div className={styles.div}>
         <Header />
-        <Title title="Our Services" />
+        <Title title={<MultiLingualContent contentID='ourServices'/>} />
 
         {isMobile ? (
           <ServicesMobile items={accordionData} />

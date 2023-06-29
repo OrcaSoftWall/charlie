@@ -1,19 +1,9 @@
-.video {
+/* .video {
     width: 100%;
-    /* height: 100vh; */
 }
 
-/* .video video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    float: left;
-    padding: none;
-    position: absolute;
-} */
-
 .video video {
-    /* object-fit: cover; */
+    object-fit: cover;
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -25,5 +15,57 @@
     .video video {
         object-fit: contain;
         ;
+    }
+} */
+
+
+
+/* index.module.css */
+
+
+.videoContainerFull {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.videoContainerHalf {
+    display: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .videoContainerFull {
+        display: none;
+    }
+
+    .videoContainerHalf {
+        display:block;
+        /* position: relative; */
+        width: 100%;
+        /* height: 0vh; */
+    }
+
+    .videoLeft {
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* width:200vw; */
+        height: 50vh;
+        overflow: hidden;
+        clip-path: polygon(0 0, 48% 0, 48% 100%, 0 100%);
+    }
+
+    .videoRight {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        /* width: 200vw; */
+        height: 50vh;
+        overflow: hidden;
+        clip-path: polygon(48% 0, 100% 0, 100% 100%, 48% 100%);
     }
 }

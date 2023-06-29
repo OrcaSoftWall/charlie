@@ -13,10 +13,8 @@ const LandingPage = () => {
   return (
     <>
       <VideoBackG />
-      {/* <VideoBackG /> */}
       <PageLayout>
-        <div className={styles.div}>
-        </div>
+        <div className={styles.div}></div>
       </PageLayout>
     </>
   );

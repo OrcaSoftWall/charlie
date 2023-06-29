@@ -9,7 +9,7 @@ const Services = ({ items }) => {
             if (index % 2 === 0) {
                 return (
                     <div className={styles.board} key={`${index}-div`}>
-                        <ServicesContent key={`${index}-content`} title={item.title} text={item.text} content={item.content} />
+                        <ServicesContent key={`${index}-content`} title={item.title} subtitle={item.subtitle} text={item.text} foot={item.foot} />
                         <ServicesPicture key={`${index}-picture`} backgroundImage={item.backgroundImage} />
                     </div>
                 )
@@ -17,7 +17,7 @@ const Services = ({ items }) => {
                 return (
                     <div className={styles.board} key={`${index}-div`}>
                         <ServicesPicture key={`${index}-picture`} backgroundImage={item.backgroundImage} />
-                        <ServicesContent key={`${index}-content`} title={item.title} text={item.text} content={item.content} />
+                        <ServicesContent key={`${index}-content`} title={item.title} subtitle={item.subtitle} text={item.text} foot={item.foot} />
                     </div>
                 )
             }

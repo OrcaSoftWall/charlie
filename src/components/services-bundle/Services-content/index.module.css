@@ -7,7 +7,7 @@
 
 
 .carousel-content h1 {
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     letter-spacing: 0.8px;
     font-size: 3rem;
     line-height: 1.1;

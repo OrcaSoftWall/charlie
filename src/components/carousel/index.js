@@ -1,10 +1,7 @@
 import slider from './slider-data'
-// import bgdonut1 from './image/bg-donut-1.png'
-// import bgdonut2 from './image/bg-donut-2.png'
-
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination, EffectCoverflow, Autoplay } from 'swiper'
-
+import MultiLingualContent from '../MultyLingualContent'
 import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
 
@@ -14,22 +11,8 @@ import styles from './index.module.css'
 const Carousel = () => {
 
 
-
-
     return (
         <div className={styles.carousel}>
-                <div className={styles['carousel-content']}>
-                    <span>Charlie Virtual Assistant</span>
-                    <h1>Our promise</h1>
-                    <hr />
-                    <p>At Charlie, we believe that working with us is an easy and rewarding experience. 
-                        With our step-by-step process, we promise to deliver outstanding results in perfect symphony with your vision. 
-                        Let us take care of the details while you focus on what matters most to you. 
-                        Get ready to embark on a journey of efficiency, collaboration, and flawless outcomes. 
-                        Together, we will make your projects shine and your dreams a reality. 
-                        Start working with us today and experience the ease and perfection you deserve.</p>
-                    <a href="#" className={styles['slider-btn']}>contact us</a>
-                </div>
 
             <Swiper
                 className={styles.myswiper}
@@ -70,7 +53,7 @@ const Carousel = () => {
                 {
                     slider.map((data, index) => (
                         <SwiperSlide style={{ backgroundImage: `url(${data.url})` }} className={styles['myswiper-slider']} key={`${index}-carousel-div`} >
-                            <div>
+                            <div className={styles.swiperContent} >
                                 <h2>{data.title}</h2>
                                 <p>{data.description}</p>
                                 <a href={`${data.url}`} target="_blank" className={styles['slider-btn']}>explore</a>
@@ -79,6 +62,13 @@ const Carousel = () => {
                     ))
                 }
             </Swiper>
+            <div className={styles['carousel-content']}>
+                {/* <span>Charlie Virtual Assistant</span> */}
+                <h1><MultiLingualContent contentID='homeTitle' /></h1>
+                {/* <hr /> */}
+                <p><MultiLingualContent contentID='homeText' /></p>
+                <a href="#" className={styles['slider-btn']}>contact us</a>
+            </div>
         </div>
     )
 }

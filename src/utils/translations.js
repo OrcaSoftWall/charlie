@@ -6,9 +6,22 @@ const translations = {
     home: 'Home',
     services: 'Services',
     pricing: 'Pricing',
-    about: 'About Us',
+    about: 'About us',
     portfolio: 'Portfolio',
     contact: 'Contact',
+
+    homeTitle: 'Why do you need Virtual Assistant ?',
+    homeText: {
+      p1: "Are administrative tasks bogging down your business? Is keeping up with data checks and updates, mailbox maintenance, and social media becoming overwhelming? Look no further! I'm here to provide the right solutions to propel your business in the right direction.",
+      p2: "I understand the challenges that come with running a business. I know that your time is valuable and should be spent on core activities that drive growth. That's where your virtual assistant come in.",
+      p3: "With my expertise as a virtual assistant, I specialize in handling administrative tasks, ensuring that your business operates smoothly and efficiently. Need someone to meticulously check and update your data? I've got you covered. Tired of juggling multiple mailboxes and struggling to stay on top of customer inquiries? Leave it to me. Seeking to establish a strong online presence through social media but lack the time and expertise? Consider it done.",
+      p4: "But I'm more than just a solution provider. I'm your dedicated partner in success. When you work with me, you gain access to someone who genuinely cares about your business. I take the time to understand your unique needs, goals, and brand identity, ensuring that my services align perfectly with your vision.",
+      p5: "Imagine having more time and peace of mind, knowing that your administrative tasks are being handled flawlessly. Picture your business flourishing as I expertly manage your data, keep your mailboxes organized, and create engaging social media content.",
+      p6: "So, are you ready to take your business to new heights? Let's embark on this journey together. Contact me today, and let's discuss how my tailored solutions can propel your business forward. Your success is my passion, and I can't wait to be a part of it.",
+
+    },
+
+
 
     ourServices: 'Our Services',
 
@@ -32,6 +45,11 @@ const translations = {
     graficText: 'Logo, Packaging and product design, Digital products, Marketing materials, Printed materials, Advertising materials (banners), Business/event posters, Food and beverage menus, Price lists, Event invitations, Announcements, FB/IG post design, Photo editing , videos, inserting subtitles',
     graficFoot: '',
 
+    texts: 'Texts & Translations',
+    textsSubtitle: 'If you find it difficult to deal with texts or translations, leave it to us. Whether you need texts for the website, for advertising or you need to create a script for addressing clients. In addition to regular translations, as a Master in molecular biology, I also offer translations of professional biological texts for your publications, or help with the preparation of documents, literature searches and language proofreading.',
+    textsText: 'Creation and planning of content, articles, posts texting (editing articles and second eyes in case of possible errors in your text), graphics, rewriting (documents, podcasts or video recordings), creating clear tables or customer databases',
+    textsFoot: '',
+
     lucky: "Didn't find what you need?",
     luckySubtitle: 'I am here to help you in various areas and I am constantly learning so I can expand my skills and offers.',
     luckyText: 'If you have other tasks or projects, please do not hesitate to contact me and we will arrange a free initial consultation. During the consultation, we can talk about your needs and find out if and how I could help you.',
@@ -49,6 +67,19 @@ const translations = {
     about: 'Über uns',
     portfolio: 'Portfolio',
     contact: 'Kontakt',
+
+    homeTitle: '',
+    homeText: {
+      p1: '',
+      p2: '',
+      p3: '',
+      p4: '',
+      p5: '',
+      p6: '',
+
+    },
+
+
 
     ourServices: 'Unsere Dienstleistungen',
 
@@ -72,6 +103,11 @@ const translations = {
     graficText: 'Logo, Verpackungs- und Produktdesign, digitale Produkte, Marketingmaterialien, gedruckte Materialien, Werbematerialien (Banner), Geschäfts-/Veranstaltungsplakate, Speise- und Getränkekarten, Preislisten, Veranstaltungseinladungen, Ankündigungen, FB/IG-Postdesign, Fotobearbeitung, Videos , Untertitel einfügen',
     graficFoot: '',
 
+    texts: '',
+    textsSubtitle: '',
+    textsText: '',
+    textsFoot: '',
+
     lucky: 'Haben Sie nicht gefunden, was Sie brauchen?',
     luckySubtitle: 'Ich bin in verschiedenen Bereichen für Sie da und lerne ständig weiter, um meine Fähigkeiten und Angebote zu erweitern.',
     luckyText: 'Wenn Sie weitere Aufgaben oder Projekte haben, nehmen Sie gerne Kontakt zu mir auf und wir vereinbaren ein kostenloses Erstgespräch. Im Beratungsgespräch können wir über Ihre Bedürfnisse sprechen und herausfinden, ob und wie ich Ihnen helfen kann.',
@@ -88,6 +124,20 @@ const translations = {
     about: 'O nás',
     portfolio: 'Portfólio',
     contact: 'Kontakt',
+
+    homeTitle: '',
+    homeText: {
+      p1: '',
+      p2: '',
+      p3: '',
+      p4: '',
+      p5: '',
+      p6: '',
+
+    },
+
+
+
 
     ourServices: 'Naše služby',
 
@@ -111,6 +161,11 @@ const translations = {
     graficText: 'Logo, Dizajn obalov a produktov, Digitálne produkty, Marketingové materiály, Tlačoviny, Reklamné materiály (bannery), Plagáty do podniku/na event, Jedálne a nápojové lístky, Cenníky, Pozvánky na udalosti, Oznámenia, Návrh príspevkov na FB/IG, Úprava fotiek, videí, vkladanie tituliek',
     graficFoot: '',
 
+    texts: '',
+    textsSubtitle: '',
+    textsText: '',
+    textsFoot: '',
+
     lucky: 'Nenašli ste čo ste potrebovali?',
     luckySubtitle: 'Som tu, aby som Vám pomohla v rôznych oblastiach a neustále sa vzdelávam, aby som mohla rozšíriť svoje schopnosti a ponuku.',
     luckyText: 'Ak máte iné úlohy alebo projekty, neváhajte ma kontaktovať a dohodneme si bezplatnú úvodnú konzultáciu. Počas konzultácie sa môžeme porozprávať o Vašich potrebách a zistiť, či a ako by som Vám mohla pomôcť.',
@@ -127,6 +182,19 @@ const translations = {
     about: 'O nás',
     portfolio: 'Portfólio',
     contact: 'Kontakt',
+
+    homeTitle: '',
+    homeText: {
+      p1: '',
+      p2: '',
+      p3: '',
+      p4: '',
+      p5: '',
+      p6: '',
+
+    },
+
+
 
     ourServices: 'Naše služby',
 
@@ -150,6 +218,11 @@ const translations = {
     graficSubtitle: 'Bez ohledu na to, zda potřebujete profesionální logo na míru nebo design pro pozvánky, letáky, vizitky, oznámení nebo jídelníček či ceník do kosmetického salonu, jsem tady pro Vás. Stačí mi poskytnout podrobnosti o vašich požadavcích a můžeme začít pracovat na vytvoření profesionálního designu, který vyhovuje vašim potřebám.',
     graficText: 'Logo, Design obalů a produktů, Digitální produkty, Marketingové materiály, Tiskoviny, Reklamní materiály (bannery), Plakáty do podniku/na event, Jídelní a nápojové lístky, Ceníky, Pozvánky na události, Oznámení, Návrh příspěvků na FB/IG, Úprava fotek , videí, vkládání titulek',
     graficFoot: '',
+
+    texts: '',
+    textsSubtitle: '',
+    textsText: '',
+    textsFoot: '',
 
     lucky: 'Nenašli jste co jste potřebovali?',
     luckySubtitle: 'Jsem tady, abych Vám pomohla v různých oblastech a neustále se vzdělávám, abych mohla rozšířit své schopnosti a nabídku.',

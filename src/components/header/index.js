@@ -13,7 +13,7 @@ import LanguageButton from '../LanguagleButton';
 import MultiLingualContent from '../MultyLingualContent';
 import links from '../../utils/navigation';
 import Link from '../link';
-import Navbar from '../navbar';
+// import Navbar from '../navbar';
 import menuBarIcon from '../../images/menu-bar.png'
 import leftArrow from '../../images/left_arrow.png'
 

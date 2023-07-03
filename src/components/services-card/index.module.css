@@ -1,4 +1,4 @@
-.frame {
+/* .frame {
     background: rgba(255, 255, 255, 0.6);
     border: 1px solid red;
     color: #f1f1f1;
@@ -11,33 +11,62 @@
     float: left;
     max-width: 200px;
     padding: 10px;
-}
-
-
-/* 
-.tabs {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #1111119f;
-}
-
-.tabs li,
-.tabs a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    min-width: 75px;
-
-    padding: 14px;
-    text-decoration: none;
-    font-family: segoe script;
-}
-
-.tabs li:hover,
-.tabs a:hover {
-    background-color: #555;
-    font-weight: bold;
 } */
+
+
+.carousel-content {
+width: 90%;
+/* margin-left: 5%; */
+}
+
+.carousel-content span {
+text-transform: uppercase;
+letter-spacing: 1.5px;
+font-size: 1rem;
+color: #717171;
+}
+
+.carousel-content h1 {
+text-transform: capitalize;
+letter-spacing: 0.8px;
+font-size: 4rem;
+line-height: 1.1;
+background-color: #00a4aa;
+background-image: linear-gradient(45deg, #00a4aa, #000);
+background-size: 100%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.carousel-content hr {
+display: block;
+background: #00a4aa;
+height: 0.25rem;
+width: 6.25rem;
+border: none;
+margin: 1.125rem 0 1.875rem 0;
+}
+
+.carousel-content p {
+line-height: 1.6;
+font-size: 1.2rem;
+font-weight: 600;
+}
+
+.slider-btn {
+display: inline-block;
+color: #717171;
+background: #fff;
+padding: 0.625rem 1.875rem;
+margin-top: 2.125rem;
+text-decoration: none;
+text-transform: uppercase;
+border: 2px solid #c2c2c2;
+border-radius: 3.125rem;
+transition: 0.3s ease-in-out;
+}
+
+.slider-btn:hover {
+border: 0.125rem solid #00a4aa;
+color: #00a4aa;
+}

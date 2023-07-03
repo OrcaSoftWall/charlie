@@ -4,7 +4,7 @@
         { contentID: 'pricing', link: '/pricing' },
         { contentID: 'about', link: '/about' },
         { contentID: 'portfolio', link: '/portfolio' },
-        { contentID: 'contact', link: '/contact' },
+        { contentID: `contact`, link: '/contact' },
     ];
 
 

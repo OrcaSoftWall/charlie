@@ -40,16 +40,11 @@ export const accordionData = [
     foot: 'administrationFoot',
   },
   {
-    title: 'Section 5',
+    title: 'texts',
     // backgroundImage:  `url(${img2})`,
     backgroundImage: img5,
-    subtitle: `Some dummy text`,
-    text: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-      reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-      quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-      pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-      quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-      Repudiandae, mollitia id reprehenderit a ab odit!`,
+    subtitle: `textsSubtitle`,
+    text: `textsText`,
     foot: 'administrationFoot',
   },
   {

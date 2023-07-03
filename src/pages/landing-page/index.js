@@ -1,14 +1,17 @@
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom'
 import styles from './index.module.css';
-import Header from '../../components/header';
-import Footer from '../../components/footer';
 import VideoBackG from '../../components/video';
-import MultiLingualContent from '../../components/MultyLingualContent';
-import LanguageContext from '../../context';
 import PageLayout from '../../components/page-layout';
 
 const LandingPage = () => {
-  const { language, selectLanguage } = useContext(LanguageContext);
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    setTimeout(() => {
+      navigate('/home')
+    }, 7300)
+  }, [])
 
   return (
     <>

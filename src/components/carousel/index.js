@@ -6,10 +6,12 @@ import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
 
 import styles from './index.module.css'
+import Content from '../content'
 
 
-const Carousel = () => {
-
+// const Carousel = () => {
+const Carousel = (props) => {
+    console.log(Object.values(props))
 
     return (
         <div className={styles.carousel}>
@@ -51,24 +53,25 @@ const Carousel = () => {
 
             >
                 {
-                    slider.map((data, index) => (
+                    // slider.map((data, index) => (
+                    Object.values(props).map((data, index) => (
                         <SwiperSlide style={{ backgroundImage: `url(${data.url})` }} className={styles['myswiper-slider']} key={`${index}-carousel-div`} >
                             <div className={styles.swiperContent} >
-                                <h2>{data.title}</h2>
-                                <p>{data.description}</p>
-                                <a href={`${data.url}`} target="_blank" className={styles['slider-btn']}>explore</a>
+                                <h2><MultiLingualContent contentID={data.title} /></h2>
+                                <p><MultiLingualContent contentID={data.description} /></p>
+                                {/* <a href={`${data.url}`} target="_blank" className={styles['slider-btn']}>contact us</a> */}
+                                <a href="/contact" className={styles['slider-btn']}>{<MultiLingualContent contentID="contact" />}</a>
                             </div>
                         </SwiperSlide>
                     ))
                 }
             </Swiper>
-            <div className={styles['carousel-content']}>
-                {/* <span>Charlie Virtual Assistant</span> */}
-                <h1><MultiLingualContent contentID='homeTitle' /></h1>
-                {/* <hr /> */}
-                <p><MultiLingualContent contentID='homeText' /></p>
-                <a href="#" className={styles['slider-btn']}>contact us</a>
-            </div>
+            {/* <div className={styles['carousel-content']}>
+                <h1><MultiLingualContent contentID={props.homeTitle} /></h1>
+                <div><MultiLingualContent contentID={props.homeText} /></div>
+                <a href="/contact" className={styles['slider-btn']}>{<MultiLingualContent contentID="contact" />}</a>
+            </div> */}
+            <Content title='homeTitle' text='homeText' />
         </div>
     )
 }

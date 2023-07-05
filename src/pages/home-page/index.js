@@ -4,6 +4,7 @@ import Footer from '../../components/footer';
 // import Title from '../../components/title';
 import PageLayout from '../../components/page-layout';
 import Carousel from '../../components/carousel';
+import slider from '../../components/carousel/slider-data'
 
 
 
@@ -12,7 +13,7 @@ const HomePage = () => {
   return (
     <>
       <PageLayout>
-        <Carousel />
+        <Carousel {...slider} homeTitle='homeTitle' homeText='homeText'/>
       </PageLayout>
       <Footer />
     </>

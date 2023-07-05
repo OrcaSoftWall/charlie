@@ -19,15 +19,15 @@ export default function MultiLingualContent({ contentID }) {
     const content = translations[language][contentID];
 
     if (typeof content === "object") {
-        console.log(content)
+        // console.log(content)
         // If the content is an object (multiple paragraphs), render each paragraph
         return (
             <div>
                 {Object.values(content).map((paragraph, index) => (
-                    <>
+                    <div key={index}>
                         <hr />
-                        <p key={index}>{paragraph}</p>
-                    </>
+                        <p >{paragraph}</p>
+                    </div>
                 ))}
             </div>
         );

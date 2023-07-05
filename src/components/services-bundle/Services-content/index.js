@@ -11,7 +11,7 @@ const ServicesContent = (props) => {
                 <hr />
                 <p>{<MultiLingualContent contentID={props.text} />}</p>
                 <p>{<MultiLingualContent contentID={props.foot} />}</p>
-                <a href="#" className={styles['slider-btn']}>contact us</a>
+                <a href="/contact" className={styles['slider-btn']}>{<MultiLingualContent contentID="contact" />}</a>
             </div>
         </div>
     )

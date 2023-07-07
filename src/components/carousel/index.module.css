@@ -19,7 +19,7 @@
     position: relative;
     width: calc(min(90rem, 90%));
     margin: 0 auto;
-    min-height: 67vh;
+    /* min-height: 67vh; */
     column-gap: 3rem;
     padding-block: min(20vh, 2rem);
 }
@@ -199,7 +199,7 @@
         font-size: 1.8rem;
         line-height: 1.4;
         /* margin-bottom: 0.625rem; */
-        margin: 3rem;
+        margin: 1.5rem auto 1rem;
         /* padding: 0 0 0 1.563rem; */
         text-transform: uppercase;
         text-align: center;

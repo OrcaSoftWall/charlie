@@ -24,3 +24,40 @@
     border-bottom: 2px solid #ffa000;
     font-weight: bold;
 } */
+
+.slider-link,
+.content-link {
+    display: block;
+    color: #717171;
+    background: #fff;
+    padding: 0.625rem 1.875rem;
+    /* margin-top: 2.125rem; */
+    margin: 2.125rem auto 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #c2c2c2;
+    border-radius: 3.125rem;
+    transition: 0.3s ease-in-out;
+    width: fit-content;
+    text-align: center;
+    /* width: 60%; */
+}
+
+.slider-link:hover,
+.content-link:hover {
+    border: 0.125rem solid #00a4aa;
+    color: #00a4aa;
+}
+
+
+@media screen and (min-width: 1000px) {
+    .slider-link {
+        display: inline-block;
+        margin-left: 17.5%;
+    }
+
+    .content-link {
+        display: inline-block;
+        /* margin: 2.125rem auto 1rem; */
+    }
+}

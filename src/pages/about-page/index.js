@@ -5,16 +5,22 @@ import Title from '../../components/title';
 import PageLayout from '../../components/page-layout';
 import Carousel from '../../components/carousel';
 
-
+import slider from './slider-data'
+import Content from '../../components/content'
+import Link from '../../components/link'
+import Circle from '../../components/circle';
 
 const HomePage = () => {
 
   return (
     <>
       <PageLayout>
-        <Title title={<MultiLingualContent contentID='about' />} />
-
-        <Carousel />
+        {/* <Title title={<MultiLingualContent contentID='homeTitle' />} /> */}
+        <Content title='homeTitle' text='aboutText1' />
+        <Circle />
+        {/* <Carousel {...slider} /> */}
+        <Content text='aboutText2' />
+        <Link title={<MultiLingualContent contentID="contact" />} href="/contact" type='slider' />
       </PageLayout>
       <Footer />
     </>

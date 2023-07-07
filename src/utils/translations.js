@@ -18,10 +18,9 @@ const translations = {
       p4: "But I'm more than just a solution provider. I'm your dedicated partner in success. When you work with me, you gain access to someone who genuinely cares about your business. I take the time to understand your unique needs, goals, and brand identity, ensuring that my services align perfectly with your vision.",
       p5: "Imagine having more time and peace of mind, knowing that your administrative tasks are being handled flawlessly. Picture your business flourishing as I expertly manage your data, keep your mailboxes organized, and create engaging social media content.",
       p6: "So, are you ready to take your business to new heights? Let's embark on this journey together. Contact me today, and let's discuss how my tailored solutions can propel your business forward. Your success is my passion, and I can't wait to be a part of it.",
-
     },
 
-    homeCarouselTitle1: 'Reliability',
+        homeCarouselTitle1: 'Reliability',
     homeCarouselDescription1: 'I am unwavering in my commitment to excellence and consistently going to ensure your tasks are not only completed on time but with precision. You can rely on me to deliver outstanding results, leaving no room for doubt or disappointment.',
     homeCarouselTitle2: 'Independence',
     homeCarouselDescription2: 'Embracing a perpetual journey of self-improvement, I consistently engage in learning and attend courses to refine my skills. My meticulous attention to detail ensures a comprehensive and thorough approach to all assignments.',
@@ -64,6 +63,21 @@ const translations = {
     luckySubtitle: 'I am here to help you in various areas and I am constantly learning so I can expand my skills and offers.',
     luckyText: 'If you have other tasks or projects, please do not hesitate to contact me and we will arrange a free initial consultation. During the consultation, we can talk about your needs and find out if and how I could help you.',
     luckyFoot: '',
+
+
+    aboutTitle: 'Who is your Virtual Assistant ?',
+    aboutText1: {
+      p1: 'Once upon a time, I found myself caught up in the corporate world, doing well in a back-office job that allowed me to thrive with minimal supervision. Life was good, until a new manager arrived, bringing along a micromanagement style that suffocated my independence and creativity.',
+      p2: "That's when I knew I had to break free. I went on a quest to find a job that would give me the freedom I craved. I hopped from one company to another, always learning and adapting quickly to new roles. But something was missing. I would finish my work at lightning speed, only to be left with empty and mundane hours. I couldn't shake the feeling that I had so much more to give.",
+      p3: 'And then it hit me: Why not take matters into my own hands? I made the bold decision to become self-employed, believing that my skills would flourish in helping businesses grow.',
+
+    },
+    aboutText2: {
+      p1: "Now, as a virtual assistant, I'm not just another face in a corporate machine. I'm here to offer a personal touch, a genuine connection, and a dedication to your success. I want to be more than just a service provider; I want to be your trusted partner.",
+      p2: "When you choose to work with me, you're not hiring a nameless entity or a faceless organization. You're choosing someone who understands the challenges and frustrations of being constrained in a traditional work environment. You're choosing someone who believes that true success lies in the freedom to explore, create, and make a meaningful impact.",
+      p3: "I'll bring my efficiency, resourcefulness, and passion to the table, so you can focus on what you do best while knowing that the administrative side is in expert hands.",
+
+    },
 
 
   },
@@ -134,6 +148,27 @@ const translations = {
     luckyText: 'Wenn Sie weitere Aufgaben oder Projekte haben, nehmen Sie gerne Kontakt zu mir auf und wir vereinbaren ein kostenloses Erstgespräch. Im Beratungsgespräch können wir über Ihre Bedürfnisse sprechen und herausfinden, ob und wie ich Ihnen helfen kann.',
     luckyFoot: '',
 
+
+    aboutTitle: '',
+    aboutText1: {
+      p1: '',
+      p2: '',
+      p3: '',
+      p4: '',
+      p5: '',
+      p6: '',
+
+    },
+    aboutText2: {
+      p1: '',
+      p2: '',
+      p3: '',
+      p4: '',
+      p5: '',
+      p6: '',
+
+    },
+
   },
   sk: {
     welcome: 'Vitajte na našej stránke o Virtuálnom Asistentovi!',
@@ -202,6 +237,28 @@ const translations = {
     luckySubtitle: 'Som tu, aby som Vám pomohla v rôznych oblastiach a neustále sa vzdelávam, aby som mohla rozšíriť svoje schopnosti a ponuku.',
     luckyText: 'Ak máte iné úlohy alebo projekty, neváhajte ma kontaktovať a dohodneme si bezplatnú úvodnú konzultáciu. Počas konzultácie sa môžeme porozprávať o Vašich potrebách a zistiť, či a ako by som Vám mohla pomôcť.',
     luckyFoot: '',
+    
+
+
+    aboutTitle: '',
+    aboutText1: {
+      p1: '',
+      p2: '',
+      p3: '',
+      p4: '',
+      p5: '',
+      p6: '',
+
+    },
+    aboutText2: {
+      p1: '',
+      p2: '',
+      p3: '',
+      p4: '',
+      p5: '',
+      p6: '',
+
+    },
 
   },
   cs: {
@@ -271,6 +328,18 @@ const translations = {
     luckySubtitle: 'Jsem tady, abych Vám pomohla v různých oblastech a neustále se vzdělávám, abych mohla rozšířit své schopnosti a nabídku.',
     luckyText: 'Pokud máte jiné úkoly nebo projekty, neváhejte mě kontaktovat a domluvíme si bezplatnou úvodní konzultaci. Během konzultace si můžeme popovídat o Vašich potřebách a zjistit, zda a jak bych Vám mohla pomoci.',
     luckyFoot: '',
+
+
+    aboutTitle: '',
+    aboutText: {
+      p1: '',
+      p2: '',
+      p3: '',
+      p4: '',
+      p5: '',
+      p6: '',
+
+    },
 
   },
 };

@@ -11,7 +11,7 @@ import Content from '../content'
 
 // const Carousel = () => {
 const Carousel = (props) => {
-    console.log(Object.values(props))
+    // console.log(Object.values(props))
 
     return (
         <div className={styles.carousel}>
@@ -71,7 +71,7 @@ const Carousel = (props) => {
                 <div><MultiLingualContent contentID={props.homeText} /></div>
                 <a href="/contact" className={styles['slider-btn']}>{<MultiLingualContent contentID="contact" />}</a>
             </div> */}
-            <Content title='homeTitle' text='homeText' />
+            {/* <Content title='homeTitle' text='homeText' /> */}
         </div>
     )
 }

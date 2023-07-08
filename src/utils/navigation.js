@@ -1,12 +1,11 @@
-    const links = [
-        { contentID: 'home', link: '/home' },
-        { contentID: 'services', link: '/services' },
-        { contentID: 'pricing', link: '/pricing' },
-        { contentID: 'about', link: '/about' },
-        { contentID: 'portfolio', link: '/portfolio' },
-        { contentID: `contact`, link: '/contact' },
-    ];
-
+const links = [
+    { contentID: 'home', link: '/home' },
+    { contentID: 'services', link: '/services' },
+    { contentID: 'pricing', link: '/pricing' },
+    { contentID: 'about', link: '/about' },
+    { contentID: 'portfolio', link: '/portfolio' },
+    { contentID: `contact`, link: '/contact' },
+];
 
 export default links
 

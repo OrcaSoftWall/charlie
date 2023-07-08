@@ -10,6 +10,7 @@ import { accordionData } from '../../utils/servicesData';
 import HorizontalAccordion from '../../components/horizontalAccordion';
 import Services from '../../components/services-bundle/Chess-card';
 import ServicesMobile from '../../components/services-bundle/Services-card-mobile';
+import ContentPriceList from '../../components/contentPriceList';
 
 const HomePage = () => {
   // const { language, selectLanguage } = useContext(LanguageContext);
@@ -20,7 +21,7 @@ const HomePage = () => {
       <div className={styles.div}>
         <Header />
         <Title title="Pricing" />
-
+ <ContentPriceList title="pricelistTitle" subtitle="pricelistSubtitle" content="pricelistBullets"/>
         {isMobile ? (
           <ServicesMobile items={accordionData} />
         ) : (

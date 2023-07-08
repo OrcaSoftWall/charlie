@@ -3,9 +3,7 @@ import MultiLingualContent from '../../components/MultyLingualContent';
 import Footer from '../../components/footer';
 import Title from '../../components/title';
 import PageLayout from '../../components/page-layout';
-import Carousel from '../../components/carousel';
 
-import slider from './slider-data'
 import Content from '../../components/content'
 import Link from '../../components/link'
 import Circle from '../../components/circle';

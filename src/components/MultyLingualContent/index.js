@@ -18,18 +18,30 @@ export default function MultiLingualContent({ contentID }) {
     const { language } = useContext(LanguageContext);
     const content = translations[language][contentID];
 
-    if (typeof content === "object") {
-        // console.log(content)
+    if (typeof content === "object" && Object.keys(content)[0][0] === "p") {
+        console.log(Object.keys(content)[0].slice(0, 2))
         // If the content is an object (multiple paragraphs), render each paragraph
         return (
             <div>
                 {Object.values(content).map((paragraph, index) => (
                     <div key={index}>
                         <hr />
-                        <p >{paragraph}</p>
+                        <p>{paragraph}</p>
                     </div>
                 ))}
             </div>
+        );
+    }
+
+    if (typeof content === "object" && Object.keys(content)[0].slice(0, 2) === "ul") {
+        console.log(Object.keys(content)[0][0] === "u")
+        // If the content is an object (unordered list), render each list item
+        return (
+            <>
+                {Object.values(content).map((paragraph, index) => (
+                    <li key={index}>{paragraph}</li>
+                ))}
+            </>
         );
     }
 

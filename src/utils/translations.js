@@ -1,3 +1,6 @@
+// object keys starting with 'p' will be populated as <p>
+// object keys starting with 'ul' will be populated as bullets <li>
+
 const translations = {
   en: {
     welcome: 'Welcome to our Virtual Assistant Site!',
@@ -20,7 +23,7 @@ const translations = {
       p6: "So, are you ready to take your business to new heights? Let's embark on this journey together. Contact me today, and let's discuss how my tailored solutions can propel your business forward. Your success is my passion, and I can't wait to be a part of it.",
     },
 
-        homeCarouselTitle1: 'Reliability',
+    homeCarouselTitle1: 'Reliability',
     homeCarouselDescription1: 'I am unwavering in my commitment to excellence and consistently going to ensure your tasks are not only completed on time but with precision. You can rely on me to deliver outstanding results, leaving no room for doubt or disappointment.',
     homeCarouselTitle2: 'Independence',
     homeCarouselDescription2: 'Embracing a perpetual journey of self-improvement, I consistently engage in learning and attend courses to refine my skills. My meticulous attention to detail ensures a comprehensive and thorough approach to all assignments.',
@@ -63,6 +66,19 @@ const translations = {
     luckySubtitle: 'I am here to help you in various areas and I am constantly learning so I can expand my skills and offers.',
     luckyText: 'If you have other tasks or projects, please do not hesitate to contact me and we will arrange a free initial consultation. During the consultation, we can talk about your needs and find out if and how I could help you.',
     luckyFoot: '',
+
+
+    pricelistTitle: "Basic",
+    pricelistSubtitle: "€300 / Month",
+    pricelistBullets: {
+      ul1: "Best Serise!",
+      ul2: "24/7 support!",
+      ul3: "Personal appointments",
+      ul4: "Flight tickets",
+      ul5: "Flowers for the metress",
+
+    },
+
 
 
     aboutTitle: 'Who is your Virtual Assistant ?',
@@ -147,6 +163,10 @@ const translations = {
     luckySubtitle: 'Ich bin in verschiedenen Bereichen für Sie da und lerne ständig weiter, um meine Fähigkeiten und Angebote zu erweitern.',
     luckyText: 'Wenn Sie weitere Aufgaben oder Projekte haben, nehmen Sie gerne Kontakt zu mir auf und wir vereinbaren ein kostenloses Erstgespräch. Im Beratungsgespräch können wir über Ihre Bedürfnisse sprechen und herausfinden, ob und wie ich Ihnen helfen kann.',
     luckyFoot: '',
+
+
+
+
 
 
     aboutTitle: '',
@@ -237,7 +257,11 @@ const translations = {
     luckySubtitle: 'Som tu, aby som Vám pomohla v rôznych oblastiach a neustále sa vzdelávam, aby som mohla rozšíriť svoje schopnosti a ponuku.',
     luckyText: 'Ak máte iné úlohy alebo projekty, neváhajte ma kontaktovať a dohodneme si bezplatnú úvodnú konzultáciu. Počas konzultácie sa môžeme porozprávať o Vašich potrebách a zistiť, či a ako by som Vám mohla pomôcť.',
     luckyFoot: '',
-    
+
+
+
+
+
 
 
     aboutTitle: '',
@@ -328,6 +352,10 @@ const translations = {
     luckySubtitle: 'Jsem tady, abych Vám pomohla v různých oblastech a neustále se vzdělávám, abych mohla rozšířit své schopnosti a nabídku.',
     luckyText: 'Pokud máte jiné úkoly nebo projekty, neváhejte mě kontaktovat a domluvíme si bezplatnou úvodní konzultaci. Během konzultace si můžeme popovídat o Vašich potřebách a zjistit, zda a jak bych Vám mohla pomoci.',
     luckyFoot: '',
+
+
+
+
 
 
     aboutTitle: '',

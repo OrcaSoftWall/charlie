@@ -33,7 +33,7 @@ const Carousel = (props) => {
                 pagination={{ clickable: true }}
 
                 autoplay={{
-                    delay: 5000,
+                    delay: 15000,
                     disableOnInteraction: false
                 }}
                 breakpoints={{

@@ -1,20 +1,24 @@
 import styles from './index.module.css';
 import MultiLingualContent from '../MultyLingualContent'
-import image from '../../images/services_cards/va-services-08.webp';
 import Title from '../title';
+import Link from '../link'
 // import Link from '../link'
 
 
-const ContentPriceList = (props) => {
-
+const ContentPriceList = ({ items }) => {
     return (
-        <div className={styles['pricelist']}>
-            <img src='https://upload.wikimedia.org/wikipedia/commons/3/39/N585AS_sdfg.jpg' alt="plane"/>
-            <Title title={<MultiLingualContent contentID={props.title} />} />
-            <div className={styles.subtitle} ><MultiLingualContent contentID={props.subtitle} /></div>
-            <ul><MultiLingualContent contentID={props.content} /></ul>
-        </div>
-    );
+        items.map((item, index) => {
+            return (
+                <div className={styles.pricelist} key={`${index}-div`} >
+                    <img src={item.picture} alt={`virtual-assistant-price-${index}`} />
+                    <Title title={<MultiLingualContent contentID={item.title} />} />
+                    <div className={styles.subtitle} ><MultiLingualContent contentID={item.subtitle} /></div>
+                    <ul><MultiLingualContent contentID={item.content} /></ul>
+                    <Link title={<MultiLingualContent contentID="contact" />} href="/contact" type='slider' />
+                </div>
+            )
+        })
+    )
 };
 
 export default ContentPriceList;

@@ -11,6 +11,9 @@ import HorizontalAccordion from '../../components/horizontalAccordion';
 import Services from '../../components/services-bundle/Chess-card';
 import ServicesMobile from '../../components/services-bundle/Services-card-mobile';
 import ContentPriceList from '../../components/contentPriceList';
+import { pricesData } from '../../utils/pricesData';
+import Content from '../../components/content'
+import Link from '../../components/link'
 
 const HomePage = () => {
   // const { language, selectLanguage } = useContext(LanguageContext);
@@ -20,24 +23,13 @@ const HomePage = () => {
     <>
       <div className={styles.div}>
         <Header />
-        <Title title="Pricing" />
- <ContentPriceList title="pricelistTitle" subtitle="pricelistSubtitle" content="pricelistBullets"/>
-        {isMobile ? (
-          <ServicesMobile items={accordionData} />
-        ) : (
-          <Services items={accordionData} />
-        )}
-        {/* <HorizontalAccordion items={accordionData} /> */}
-
-        {/* <div>
-          <h1>
-            <MultiLingualContent contentID="welcome" />
-          </h1>
-          <p>
-            <MultiLingualContent contentID="description" />
-          </p>
-        </div> */}
-
+        <Title title={<MultiLingualContent contentID="pricing" />} />
+        <Content  text='priceText1' />
+        <div className={styles.pricelistContainer}>
+          <ContentPriceList items={pricesData} />
+        </div>
+        <Content text='priceText2' />
+        <Link title={<MultiLingualContent contentID="contact" />} href="/contact" type='slider' />
         <Footer />
       </div>
     </>

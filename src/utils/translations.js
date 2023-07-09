@@ -8,7 +8,7 @@ const translations = {
     getStarted: 'Get Started',
     home: 'Home',
     services: 'Services',
-    pricing: 'Pricing',
+    pricing: 'Price list',
     about: 'About us',
     portfolio: 'Portfolio',
     contact: 'Contact',
@@ -68,14 +68,52 @@ const translations = {
     luckyFoot: '',
 
 
-    pricelistTitle: "Basic",
-    pricelistSubtitle: "€300 / Month",
-    pricelistBullets: {
-      ul1: "Best Serise!",
-      ul2: "24/7 support!",
-      ul3: "Personal appointments",
-      ul4: "Flight tickets",
-      ul5: "Flowers for the metress",
+    priceText1: {
+      p1: "Before ordering any service, you are entitled to a free initial consultation. \nI offer a basic price list of monthly packages.",
+      p2: "",
+    },
+    priceText2: {
+      p1: "If you did not find a package that would meet your needs in our virtual assistant price list, I can prepare a special service package for you that will be completely adapted to your individual requirements.",
+    },
+
+    priceStartTitle: "Start",
+    priceStartSubtitle: "€300 / Month",
+    priceStartContent: {
+      ul1: "20 hours",
+      ul2: "€15.00 / hour",
+      ul3: "This package includes all services of a virtual assistant",
+      // ul4: "Flight tickets",
+      // ul5: "Flowers for the metress",
+
+    },
+    priceExtraTitle: "Extra",
+    priceExtraSubtitle: "€560 / Month",
+    priceExtraContent: {
+      ul1: "40 hours",
+      ul2: "€14.00 / hour",
+      ul3: "This package includes all services of a virtual assistant",
+      // ul4: "Flight tickets",
+      // ul5: "Flowers for the metress",
+
+    },
+    pricePremiumTitle: "Premium",
+    pricePremiumSubtitle: "€828 / Month",
+    pricePremiumContent: {
+      ul1: "60 hours",
+      ul2: "€13.80 / hour",
+      ul3: "This package includes all services of a virtual assistant",
+      // ul4: "Flight tickets",
+      // ul5: "Flowers for the metress",
+
+    },
+    priceSocialMediaTitle: "Social Media",
+    priceSocialMediaSubtitle: "€350 / Month",
+    priceSocialMediaContent: {
+      ul1: "Creation of posts, stories, reels",
+      ul2: "Responding to comments and messages",
+      ul3: "Organisation of competitions",
+      // ul4: "Flight tickets",
+      // ul5: "Flowers for the metress",
 
     },
 
@@ -165,6 +203,56 @@ const translations = {
     luckyFoot: '',
 
 
+
+
+    priceText1: {
+      p1: "Before ordering any service, you are entitled to a free initial consultation. \n I offer a basic price list of monthly packages.",
+      p2: "",
+    },
+    priceText2: {
+      p1: "If you did not find a package that would meet your needs in our virtual assistant price list, I can prepare a special service package for you that will be completely adapted to your individual requirements.",
+    },
+
+    priceStartTitle: "Start",
+    priceStartSubtitle: "€300 / Month",
+    priceStartContent: {
+      ul1: "Best Serise!",
+      ul2: "24/7 support!",
+      ul3: "Personal appointments",
+      ul4: "Flight tickets",
+      ul5: "Flowers for the metress",
+
+    },
+    priceExtraTitle: "Extra",
+    priceExtraSubtitle: "€300 / Month",
+    priceExtraContent: {
+      ul1: "Best Serise!",
+      ul2: "24/7 support!",
+      ul3: "Personal appointments",
+      ul4: "Flight tickets",
+      ul5: "Flowers for the metress",
+
+    },
+    pricePremiumTitle: "Premium",
+    pricePremiumSubtitle: "€300 / Month",
+    pricePremiumContent: {
+      ul1: "Best Serise!",
+      ul2: "24/7 support!",
+      ul3: "Personal appointments",
+      ul4: "Flight tickets",
+      ul5: "Flowers for the metress",
+
+    },
+    priceSocialMediaTitle: "Social Media",
+    priceSocialMediaSubtitle: "€300 / Month",
+    priceSocialMediaContent: {
+      ul1: "Best Serise!",
+      ul2: "24/7 support!",
+      ul3: "Personal appointments",
+      ul4: "Flight tickets",
+      ul5: "Flowers for the metress",
+
+    },
 
 
 
@@ -261,6 +349,57 @@ const translations = {
 
 
 
+    priceText1: {
+      p1: "Predtým, než si objednáte akúkoľvek službu, máte nárok na bezplatnú úvodnú konzultáciu. \nPonúkam základný cenník mesačných balíkov.",
+      p2: "",
+    },
+    priceText2: {
+      p1: "Ak ste v mojom cenníku virtuálnej asistentky nenašli balík, ktorý by vyhovoval Vašim potrebám, viem Vám pripraviť individuálny balíček služieb, ktorý bude úplne prispôsobený Vašim požiadavkám.",
+    },
+
+    priceStartTitle: "Start",
+    priceStartSubtitle: "€300 / Month",
+    priceStartContent: {
+      ul1: "Best Serise!",
+      ul2: "24/7 support!",
+      ul3: "Personal appointments",
+      ul4: "Flight tickets",
+      ul5: "Flowers for the metress",
+
+    },
+    priceExtraTitle: "Extra",
+    priceExtraSubtitle: "€300 / Month",
+    priceExtraContent: {
+      ul1: "Best Serise!",
+      ul2: "24/7 support!",
+      ul3: "Personal appointments",
+      ul4: "Flight tickets",
+      ul5: "Flowers for the metress",
+
+    },
+    pricePremiumTitle: "Premium",
+    pricePremiumSubtitle: "€300 / Month",
+    pricePremiumContent: {
+      ul1: "Best Serise!",
+      ul2: "24/7 support!",
+      ul3: "Personal appointments",
+      ul4: "Flight tickets",
+      ul5: "Flowers for the metress",
+
+    },
+    priceSocialMediaTitle: "Social Media",
+    priceSocialMediaSubtitle: "€300 / Month",
+    priceSocialMediaContent: {
+      ul1: "Best Serise!",
+      ul2: "24/7 support!",
+      ul3: "Personal appointments",
+      ul4: "Flight tickets",
+      ul5: "Flowers for the metress",
+
+    },
+
+
+
 
 
 
@@ -352,6 +491,58 @@ const translations = {
     luckySubtitle: 'Jsem tady, abych Vám pomohla v různých oblastech a neustále se vzdělávám, abych mohla rozšířit své schopnosti a nabídku.',
     luckyText: 'Pokud máte jiné úkoly nebo projekty, neváhejte mě kontaktovat a domluvíme si bezplatnou úvodní konzultaci. Během konzultace si můžeme popovídat o Vašich potřebách a zjistit, zda a jak bych Vám mohla pomoci.',
     luckyFoot: '',
+
+
+
+
+    priceText1: {
+      p1: "Předtím, než si objednáte jakoukoli službu, máte nárok na bezplatnou úvodní konzultaci. \nNabízím základní ceník měsíčních balíků.",
+      p2: "",
+    },
+    priceText2: {
+      p1: "Pokud jste v mém ceníku virtuální asistentky nenašli balíček, který by vyhovoval Vašim potřebám, umím Vám připravit individuální balíček služeb, který bude zcela přizpůsoben Vašim požadavkům.",
+    },
+
+    priceStartTitle: "Start",
+    priceStartSubtitle: "€300 / Month",
+    priceStartContent: {
+      ul1: "Best Serise!",
+      ul2: "24/7 support!",
+      ul3: "Personal appointments",
+      ul4: "Flight tickets",
+      ul5: "Flowers for the metress",
+
+    },
+    priceExtraTitle: "Extra",
+    priceExtraSubtitle: "€300 / Month",
+    priceExtraContent: {
+      ul1: "Best Serise!",
+      ul2: "24/7 support!",
+      ul3: "Personal appointments",
+      ul4: "Flight tickets",
+      ul5: "Flowers for the metress",
+
+    },
+    pricePremiumTitle: "Premium",
+    pricePremiumSubtitle: "€300 / Month",
+    pricePremiumContent: {
+      ul1: "Best Serise!",
+      ul2: "24/7 support!",
+      ul3: "Personal appointments",
+      ul4: "Flight tickets",
+      ul5: "Flowers for the metress",
+
+    },
+    priceSocialMediaTitle: "Social Media",
+    priceSocialMediaSubtitle: "€300 / Month",
+    priceSocialMediaContent: {
+      ul1: "Best Serise!",
+      ul2: "24/7 support!",
+      ul3: "Personal appointments",
+      ul4: "Flight tickets",
+      ul5: "Flowers for the metress",
+
+    },
 
 
 

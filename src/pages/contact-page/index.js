@@ -6,10 +6,13 @@ import LanguageContext from '../../context';
 import Footer from '../../components/footer';
 import Title from '../../components/title';
 import Accordion from '../../components/accordion';
-import { accordionData } from '../../utils/servicesData';
+import { contactData } from '../../utils/contactData';
 import HorizontalAccordion from '../../components/horizontalAccordion';
 import Services from '../../components/services-bundle/Chess-card';
 import ServicesMobile from '../../components/services-bundle/Services-card-mobile';
+import ServicesPicture from '../../components/services-bundle/Services-picture';
+import ServicesContent from '../../components/services-bundle/Services-content';
+
 
 const HomePage = () => {
   // const { language, selectLanguage } = useContext(LanguageContext);
@@ -22,20 +25,14 @@ const HomePage = () => {
         <Title title="Contact" />
 
         {isMobile ? (
-          <ServicesMobile items={accordionData} />
+          <ServicesMobile items={contactData} />
         ) : (
-          <Services items={accordionData} />
+          // <Services items={contactData} />
+          <div className={styles.board}>
+            <ServicesPicture backgroundImage={contactData[0].backgroundImage} />
+            <ServicesContent title={contactData[0].title} subtitle={contactData[0].subtitle} text={contactData[0].text} foot={contactData[0].foot} />
+          </div>
         )}
-        {/* <HorizontalAccordion items={accordionData} /> */}
-
-        {/* <div>
-          <h1>
-            <MultiLingualContent contentID="welcome" />
-          </h1>
-          <p>
-            <MultiLingualContent contentID="description" />
-          </p>
-        </div> */}
 
         <Footer />
       </div>

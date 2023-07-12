@@ -15,7 +15,7 @@ import { pricesData } from '../../utils/pricesData';
 import Content from '../../components/content'
 import Link from '../../components/link'
 
-const HomePage = () => {
+const PricingPage = () => {
   // const { language, selectLanguage } = useContext(LanguageContext);
   const isMobile = window.innerWidth <= 1000
 
@@ -24,7 +24,7 @@ const HomePage = () => {
       <div className={styles.div}>
         <Header />
         <Title title={<MultiLingualContent contentID="pricing" />} />
-        <Content  text='priceText1' />
+        <Content text='priceText1' />
         <div className={styles.pricelistContainer}>
           <ContentPriceList items={pricesData} />
         </div>
@@ -36,4 +36,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default PricingPage;

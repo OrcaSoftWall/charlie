@@ -134,7 +134,16 @@ const translations = {
     },
 
 
+
+    contactTitle: 'Cow now!'
   },
+
+
+
+
+
+
+
   de: {
     welcome: 'Willkommen auf unserer Virtuellen Assistenten Seite!',
     description: 'Wir bieten professionelle Virtuelle Assistenten Services, um Ihnen bei Ihren Aufgaben zu helfen.',
@@ -278,6 +287,14 @@ const translations = {
     },
 
   },
+
+
+
+
+
+
+
+
   sk: {
     welcome: 'Vitajte na našej stránke o Virtuálnom Asistentovi!',
     description: 'Poskytujeme profesionálne služby virtuálneho asistenta na pomoc s vašimi úlohami.',
@@ -424,6 +441,14 @@ const translations = {
     },
 
   },
+
+
+
+
+
+
+
+
   cs: {
     welcome: 'Vítejte na naší stránce o Virtuálním Asistentovi!',
     description: 'Poskytujeme profesionální služby virtuálního asistenta pro pomoc s vašimi úkoly.',

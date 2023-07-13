@@ -12,6 +12,7 @@ import Services from '../../components/services-bundle/Chess-card';
 import ServicesMobile from '../../components/services-bundle/Services-card-mobile';
 import ServicesPicture from '../../components/services-bundle/Services-picture';
 import ServicesContent from '../../components/services-bundle/Services-content';
+import { ContactUs } from '../../components/EmailJSContact';
 
 
 const HomePage = () => {
@@ -24,16 +25,19 @@ const HomePage = () => {
         <Header />
         <Title title="Contact" />
 
-        {isMobile ? (
+        {/* {isMobile ? (
           <ServicesMobile items={contactData} />
         ) : (
-          // <Services items={contactData} />
           <div className={styles.board}>
             <ServicesPicture backgroundImage={contactData[0].backgroundImage} />
-            <ServicesContent title={contactData[0].title} subtitle={contactData[0].subtitle} text={contactData[0].text} foot={contactData[0].foot} />
+            <ContactUs />
           </div>
-        )}
-
+        )} */}
+        <div className={styles.board}>
+          <ServicesPicture backgroundImage={contactData[0].backgroundImage} />
+          {/* <ServicesContent title={contactData[0].title} subtitle={contactData[0].subtitle} text={contactData[0].text} foot={contactData[0].foot} /> */}
+          <ContactUs />
+        </div>
         <Footer />
       </div>
     </>

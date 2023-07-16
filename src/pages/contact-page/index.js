@@ -2,16 +2,10 @@ import { useContext } from 'react';
 import styles from './index.module.css';
 import Header from '../../components/header';
 import MultiLingualContent from '../../components/MultyLingualContent';
-import LanguageContext from '../../context';
 import Footer from '../../components/footer';
 import Title from '../../components/title';
-import Accordion from '../../components/accordion';
 import { contactData } from '../../utils/contactData';
-import HorizontalAccordion from '../../components/horizontalAccordion';
-import Services from '../../components/services-bundle/Chess-card';
-import ServicesMobile from '../../components/services-bundle/Services-card-mobile';
 import ServicesPicture from '../../components/services-bundle/Services-picture';
-import ServicesContent from '../../components/services-bundle/Services-content';
 import { ContactUs } from '../../components/EmailJSContact';
 
 
@@ -23,7 +17,7 @@ const HomePage = () => {
     <>
       <div className={styles.div}>
         <Header />
-        <Title title="Contact" />
+        <Title title={<MultiLingualContent contentID='contact'/>} />
 
         {/* {isMobile ? (
           <ServicesMobile items={contactData} />

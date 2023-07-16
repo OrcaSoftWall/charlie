@@ -13,6 +13,7 @@ export const ContactUs = () => {
     console.log(e)
     emailjs.sendForm(`${apiKeys.SERVICE_ID[0]}`, `${apiKeys.TEMPLATE_ID}`, form.current, `${apiKeys.PUBLIC_KEY[0]}${apiKeys.PUBLIC_KEY[1]}`)
       .then((result) => {
+        document.getElementById("contactForm").reset();
         console.log(result.text);
       }, (error) => {
         console.log(error.text);
@@ -21,18 +22,18 @@ export const ContactUs = () => {
 
   return (
     <>
-      <form ref={form} onSubmit={sendEmail}>
-        <p></p>
+      <form ref={form} onSubmit={sendEmail} id="contactForm">
+          <p>If you are interested in cooperation or have any questions about the services, please do not hesitate to contact me.</p>
         <div>
-          <label for="user_name">Name</label>
+          <label htmlFor="user_name">Name</label>
           <input type="text" id="user_name" name="user_name" placeholder="" required />
         </div>
         <div>
-          <label for="user_email">Email</label>
+          <label htmlFor="user_email">Email</label>
           <input type="email" id="user_email" name="user_email" placeholder="" required />
         </div>
         <div>
-          <label for="user_phone">Phone</label>
+          <label htmlFor="user_phone">Phone</label>
           <input type="tel" id="user_phone" name="user_phone" placeholder="" required />
         </div>
         {/* <label>Message</label> */}

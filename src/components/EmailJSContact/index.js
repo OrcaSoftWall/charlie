@@ -8,10 +8,22 @@ import Title from '../title';
 export const ContactUs = () => {
   const form = useRef();
 
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+  //   console.log(e)
+  //   emailjs.sendForm(`${apiKeys.SERVICE_ID[0]}`, `${apiKeys.TEMPLATE_ID}`, form.current, `${apiKeys.PUBLIC_KEY[0]}${apiKeys.PUBLIC_KEY[1]}`)
+  //     .then((result) => {
+  //       document.getElementById("contactForm").reset();
+  //       console.log(result.text);
+  //     }, (error) => {
+  //       console.log(error.text);
+  //     });
+  // };
+
   const sendEmail = (e) => {
     e.preventDefault();
     console.log(e)
-    emailjs.sendForm(`${apiKeys.SERVICE_ID[0]}`, `${apiKeys.TEMPLATE_ID}`, form.current, `${apiKeys.PUBLIC_KEY[0]}${apiKeys.PUBLIC_KEY[1]}`)
+    emailjs.sendForm(apiKeys.SERVICE_ID1, apiKeys.TEMPLATE_ID1, form.current, apiKeys.PUBLIC_KEY1)
       .then((result) => {
         document.getElementById("contactForm").reset();
         console.log(result.text);

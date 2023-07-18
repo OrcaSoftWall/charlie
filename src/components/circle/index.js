@@ -1,7 +1,7 @@
 import styles from './index.module.css';
-import VApict2 from '../../images/about/Virtual_Assistant_2.JPG'
-import VApict3 from '../../images/about/Virtual_Assistant_3.JPG'
-import VApict4 from '../../images/about/Virtual_Assistant_4.JPG'
+import VApict2 from '../../images/about/Virtual_Assistant_2.jpg'
+import VApict3 from '../../images/about/Virtual_Assistant_3.jpg'
+import VApict4 from '../../images/about/Virtual_Assistant_4.jpg'
 
 
 const Circle = () => {

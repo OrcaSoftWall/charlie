@@ -1,4 +1,4 @@
-import videoBacground from '../../videos/va_welcome_video.mp4';
+import videoBacground from '../../videos/va_welcome_video_s.mp4';
 import styles from "./index.module.css";
 
 // const VideoBackG = () => {

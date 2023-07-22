@@ -10,6 +10,7 @@ const LazyAboutPage = lazy(() => import('./pages/about-page'))
 const LazyPricingPage = lazy(() => import('./pages/pricing-page'))
 const LazyPortfolioPage = lazy(() => import('./pages/portfolio-page'))
 const LazyContactPage = lazy(() => import('./pages/contact-page'))
+const LazyErrorPage = lazy(() => import('./pages/error-page'))
 
 
 const LazyNavigation = () => {
@@ -27,6 +28,7 @@ const LazyNavigation = () => {
                     <Route path="/pricing" element={<LazyPricingPage />} />
                     <Route path="/portfolio" element={<LazyPortfolioPage />} />
                     <Route path="/contact" element={<LazyContactPage />} />
+                    <Route path="*" element={<LazyErrorPage />} />
 
                     {/* <Route path="/share" element={loggedIn ? (<LazyShareThoughtsPage />) : (<Navigate replace to="/login" />)} />
                     <Route path="/register" element={!loggedIn ? (<LazyRegisterPage />) : (<Navigate replace to="/" />)} />

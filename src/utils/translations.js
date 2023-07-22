@@ -135,7 +135,8 @@ const translations = {
 
 
 
-    contactTitle: 'Cow now!'
+    contactTitle: 'Call now!',
+    notFound: 'Page not found! 404'
   },
 
 

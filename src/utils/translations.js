@@ -136,6 +136,7 @@ const translations = {
 
 
     contactTitle: 'Call now!',
+    contactMeText:"If you are interested in cooperation or have any questions about the services, please do not hesitate to contact me.",
     notFound: 'Page not found! 404'
   },
 
@@ -289,6 +290,8 @@ const translations = {
 
     },
 
+    contactMeText: "Wenn Sie an einer Zusammenarbeit interessiert sind oder Fragen zu den Leistungen haben, können Sie mich gerne kontaktieren.",
+
   },
 
 
@@ -389,43 +392,35 @@ const translations = {
     },
 
     priceStartTitle: "Start",
-    priceStartSubtitle: "€300 / Month",
+    priceStartSubtitle: "300 €/mesiac",
     priceStartContent: {
-      ul1: "Best Serise!",
-      ul2: "24/7 support!",
-      ul3: "Personal appointments",
-      ul4: "Flight tickets",
-      ul5: "Flowers for the metress",
-
+      ul1: "20 hodín",
+      ul2: "15,00 € / hodinu",
+      ul3: "Tento balík obsahuje všetky služby virtuálneho asistenta",
     },
+
     priceExtraTitle: "Extra",
-    priceExtraSubtitle: "€300 / Month",
+    priceExtraSubtitle: "560 €/mesiac",
     priceExtraContent: {
-      ul1: "Best Serise!",
-      ul2: "24/7 support!",
-      ul3: "Personal appointments",
-      ul4: "Flight tickets",
-      ul5: "Flowers for the metress",
+      ul1: "40 hodín",
+      ul2: "14,00 €/hod",
+      ul3: "Tento balík obsahuje všetky služby virtuálneho asistenta",
 
     },
     pricePremiumTitle: "Premium",
-    pricePremiumSubtitle: "€300 / Month",
+    pricePremiumSubtitle: "828 €/mesiac",
     pricePremiumContent: {
-      ul1: "Best Serise!",
-      ul2: "24/7 support!",
-      ul3: "Personal appointments",
-      ul4: "Flight tickets",
-      ul5: "Flowers for the metress",
+      ul1: "60 hodín",
+      ul2: "13,80 €/hod",
+      ul3: "Tento balík obsahuje všetky služby virtuálneho asistenta",
 
     },
     priceSocialMediaTitle: "Social Media",
-    priceSocialMediaSubtitle: "€300 / Month",
+    priceSocialMediaSubtitle: "350 €/mesiac",
     priceSocialMediaContent: {
-      ul1: "Best Serise!",
-      ul2: "24/7 support!",
-      ul3: "Personal appointments",
-      ul4: "Flight tickets",
-      ul5: "Flowers for the metress",
+      ul1: "Tvorba príspevkov, príbehov, kotúčov",
+      ul2: "Odpovedanie na komentáre a správy",
+      ul3: "Organizácia súťaží",
 
     },
 
@@ -453,6 +448,9 @@ const translations = {
       p6: '',
 
     },
+
+
+    contactMeText:"Ak máte záujem o spoluprácu alebo máte nejaké otázky ohľadom služieb, neváhajte ma kontaktovať.",
 
   },
 
@@ -553,43 +551,38 @@ const translations = {
     },
 
     priceStartTitle: "Start",
-    priceStartSubtitle: "€300 / Month",
+    priceStartSubtitle: "300 € / měsíc",
     priceStartContent: {
-      ul1: "Best Serise!",
-      ul2: "24/7 support!",
-      ul3: "Personal appointments",
-      ul4: "Flight tickets",
-      ul5: "Flowers for the metress",
+      ul1: "20 hodin",
+      ul2: "15,00 €/hod",
+      ul3: "Tento balíček obsahuje všechny služby virtuální asistentky",
 
     },
+
     priceExtraTitle: "Extra",
-    priceExtraSubtitle: "€300 / Month",
+    priceExtraSubtitle: "560 € / měsíc",
     priceExtraContent: {
-      ul1: "Best Serise!",
-      ul2: "24/7 support!",
-      ul3: "Personal appointments",
-      ul4: "Flight tickets",
-      ul5: "Flowers for the metress",
+      ul1: "40 hodin",
+      ul2: "14,00 €/hod",
+      ul3: "Tento balíček obsahuje všechny služby virtuální asistentky",
 
     },
+
     pricePremiumTitle: "Premium",
-    pricePremiumSubtitle: "€300 / Month",
+    pricePremiumSubtitle: "828 € / měsíc",
     pricePremiumContent: {
-      ul1: "Best Serise!",
-      ul2: "24/7 support!",
-      ul3: "Personal appointments",
-      ul4: "Flight tickets",
-      ul5: "Flowers for the metress",
+      ul1: "60 hodin",
+      ul2: "13,80 €/hod",
+      ul3: "Tento balíček obsahuje všechny služby virtuální asistentky",
 
     },
+
     priceSocialMediaTitle: "Social Media",
-    priceSocialMediaSubtitle: "€300 / Month",
+    priceSocialMediaSubtitle: "350 € / měsíc",
     priceSocialMediaContent: {
-      ul1: "Best Serise!",
-      ul2: "24/7 support!",
-      ul3: "Personal appointments",
-      ul4: "Flight tickets",
-      ul5: "Flowers for the metress",
+      ul1: "Tvorba příspěvků, příběhů, rolí",
+      ul2: "Odpovídání na komentáře a zprávy",
+      ul3: "Organizace soutěží",
 
     },
 
@@ -609,6 +602,9 @@ const translations = {
 
     },
 
+
+    contactMeText:"Pokud máte zájem o spolupráci nebo máte nějaké dotazy ohledně služeb, neváhejte mě kontaktovat.",
+    
   },
 };
 

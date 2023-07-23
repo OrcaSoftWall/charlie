@@ -3,6 +3,7 @@ import styles from './index.module.css'
 import emailjs from '@emailjs/browser'
 import apiKeys from '../../utils/apikeys'
 import Title from '../title';
+import MultiLingualContent from '../MultyLingualContent';
 
 
 export const ContactUs = () => {
@@ -35,7 +36,7 @@ export const ContactUs = () => {
   return (
     <>
       <form ref={form} onSubmit={sendEmail} id="contactForm">
-          <p className={styles.contactText}>If you are interested in cooperation or have any questions about the services, please do not hesitate to contact me.</p>
+          <p className={styles.contactText}>{<MultiLingualContent contentID="contactMeText" />}</p>
         <div>
           <label htmlFor="user_name">Name</label>
           <input type="text" id="user_name" name="user_name" placeholder="" required />

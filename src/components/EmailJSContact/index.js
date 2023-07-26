@@ -1,8 +1,9 @@
-import React, { useRef } from 'react'
+import React, { useRef, useContext } from 'react'
 import styles from './index.module.css'
 import emailjs from '@emailjs/browser'
 import apiKeys from '../../utils/apikeys'
-import Title from '../title';
+import translations from '../../utils/translations';
+import LanguageContext from '../../context.js';
 import MultiLingualContent from '../MultyLingualContent';
 
 
@@ -33,6 +34,11 @@ export const ContactUs = () => {
       });
   };
 
+  const MultyContent = ( contentID ) => {
+    const { language } = useContext(LanguageContext);
+    return translations[language][contentID];
+  }
+
   return (
     <>
       <form ref={form} onSubmit={sendEmail} id="contactForm">
@@ -50,9 +56,11 @@ export const ContactUs = () => {
           <input type="tel" id="user_phone" name="user_phone" placeholder="" required />
         </div>
         {/* <label>Message</label> */}
-        <textarea className={styles.text} name="message" placeholder="Drop me a message..." spellCheck="true" required minLength="40" />
+        <textarea className={styles.text} name="message" placeholder={MultyContent("contactMessage")} spellCheck="true" required minLength="40" />
         <input className={styles["content-link"]} type="submit" value="Send" />
       </form>
     </>
   );
 };
+
+{/* <textarea className={styles.text} name="message" placeholder="Drop me a message..." spellCheck="true" required minLength="40" /> */}

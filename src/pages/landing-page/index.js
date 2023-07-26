@@ -11,6 +11,7 @@ const LandingPage = () => {
     setTimeout(() => {
       navigate('/home')
     }, 7300)
+  // }, 999999)
   }, [])
 
   return (

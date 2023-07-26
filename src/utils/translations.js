@@ -136,8 +136,9 @@ const translations = {
 
 
     contactTitle: 'Call now!',
-    contactMeText:"If you are interested in cooperation or have any questions about the services, please do not hesitate to contact me.",
-    notFound: 'Page not found! 404'
+    contactMeText: "If you are interested in cooperation or have any questions about the services, please do not hesitate to contact me.",
+    contactMessage: "Drop me a message...",
+    notFound: 'Page not found! 404',
   },
 
 
@@ -291,7 +292,8 @@ const translations = {
     },
 
     contactMeText: "Wenn Sie an einer Zusammenarbeit interessiert sind oder Fragen zu den Leistungen haben, können Sie mich gerne kontaktieren.",
-
+    contactMessage: "Schreiben Sie mir eine Nachricht ...",
+    notFound: 'Seite nicht gefunden! 404',
   },
 
 
@@ -450,8 +452,9 @@ const translations = {
     },
 
 
-    contactMeText:"Ak máte záujem o spoluprácu alebo máte nejaké otázky ohľadom služieb, neváhajte ma kontaktovať.",
-
+    contactMeText: "Ak máte záujem o spoluprácu alebo máte nejaké otázky ohľadom služieb, neváhajte ma kontaktovať.",
+    contactMessage: "Napíšte mi správu...",
+    notFound: 'Stránka sa nenašla! 404',
   },
 
 
@@ -603,8 +606,9 @@ const translations = {
     },
 
 
-    contactMeText:"Pokud máte zájem o spolupráci nebo máte nějaké dotazy ohledně služeb, neváhejte mě kontaktovat.",
-    
+    contactMeText: "Pokud máte zájem o spolupráci nebo máte nějaké dotazy ohledně služeb, neváhejte mě kontaktovat.",
+    contactMessage: "Napište mi zprávu...",
+    notFound: 'Stránka nenalezena! 404',
   },
 };
 

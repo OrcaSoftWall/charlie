@@ -16,12 +16,15 @@
     margin: 10px;
 }
 
-ul {
+.priceUnorderedList {
+    /* ul { */
     color: #735A4D;
     padding-left: 20%;
     font-size: 1.2rem;
     padding-bottom: 20px;
 }
+
+
 
 .pricelist img {
     width: 100%;
@@ -47,6 +50,7 @@ ul {
         margin: 0 auto 50px;
 
     }
+
     .pricelist a {
         margin: 0 auto;
     }

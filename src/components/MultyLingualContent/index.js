@@ -19,7 +19,7 @@ export default function MultiLingualContent({ contentID }) {
     const content = translations[language][contentID];
 
     if (typeof content === "object" && Object.keys(content)[0][0] === "p") {
-        console.log(Object.keys(content)[0].slice(0, 2))
+        // console.log(Object.keys(content)[0].slice(0, 2))
         // If the content is an object (multiple paragraphs), render each paragraph
         return (
             <div>
@@ -34,7 +34,7 @@ export default function MultiLingualContent({ contentID }) {
     }
 
     if (typeof content === "object" && Object.keys(content)[0].slice(0, 2) === "ul") {
-        console.log(Object.keys(content)[0][0] === "u")
+        // console.log(Object.keys(content)[0][0] === "u")
         // If the content is an object (unordered list), render each list item
         return (
             <>

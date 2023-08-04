@@ -16,6 +16,8 @@ import translations from '../../utils/translations.js';
 
 export default function MultiLingualContent({ contentID }) {
     const { language } = useContext(LanguageContext);
+    // console.log("MultiLingualContent useContext language", language)
+    localStorage.setItem("language", JSON.stringify(language))
     const content = translations[language][contentID];
 
     if (typeof content === "object" && Object.keys(content)[0][0] === "p") {

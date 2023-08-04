@@ -2,7 +2,16 @@ import { useState } from "react";
 import LanguageContext from './context.js';
 
 const App = (props) => {
-  const [language, setLanguage] = useState("en");
+
+  //using localStorage, so that client doesn't need to select language everytime he enters from the same brouser.
+  function localLanguage() {
+    const storedLanguage = localStorage.getItem("language")
+    return storedLanguage ? JSON.parse(storedLanguage) : "en"
+  }
+  const [language, setLanguage] = useState(localLanguage());
+
+
+  // const [language, setLanguage] = useState("en");
 
   const selectLanguage = (selectedLanguage) => {
     setLanguage(selectedLanguage);

@@ -1,4 +1,4 @@
-import { useState, useContext } from 'react';
+import { useState } from 'react';
 import styles from './index.module.css';
 import image from '../../images/Cahrlie_logo2.png';
 import DE_HearthImage from '../../images/DE_Hearth.png';
@@ -70,7 +70,7 @@ const Header = () => {
                         />
                     ))}
                     <div className={styles["menu-icon"]} onClick={handleClick} >
-                        {click ? <img src={leftArrow} /> : <img src={menuBarIcon} />}
+                        {click ? <img src={leftArrow} alt="Charlie Virtual assistant left arrow" /> : <img src={menuBarIcon} alt="Charlie Virtual assistant menu bar icon" />}
                     </div>
                     <div className={styles.languageButtons}>
                         {languageButtons.map((button) => (

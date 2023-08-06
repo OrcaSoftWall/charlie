@@ -5,9 +5,9 @@
     color: #f1f1f1;
     width: 100%;
 
-    /* position: sticky;
-    top: 0;
-    z-index: 999; */
+    position: sticky;
+    top: -85px;
+    z-index: 999;
 }
 
 .logo {

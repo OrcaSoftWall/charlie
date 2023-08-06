@@ -4,7 +4,7 @@ import { Pagination, EffectCoverflow, Autoplay } from 'swiper'
 import MultiLingualContent from '../MultyLingualContent'
 import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
-
+import Link from '../../components/link'
 import styles from './index.module.css'
 import Content from '../content'
 
@@ -59,19 +59,13 @@ const Carousel = (props) => {
                             <div className={styles.swiperContent} >
                                 <h2><MultiLingualContent contentID={data.title} /></h2>
                                 <p><MultiLingualContent contentID={data.description} /></p>
-                                {/* <a href={`${data.url}`} target="_blank" className={styles['slider-btn']}>contact us</a> */}
-                                <a href="/contact" className={styles['slider-btn']}>{<MultiLingualContent contentID="contact" />}</a>
+                                {/* <a href="/contact" className={styles['slider-btn']}>{<MultiLingualContent contentID="contact" />}</a> */}
+                                <Link title={<MultiLingualContent contentID="contact" />} href="/contact" type='slider' />
                             </div>
                         </SwiperSlide>
                     ))
                 }
             </Swiper>
-            {/* <div className={styles['carousel-content']}>
-                <h1><MultiLingualContent contentID={props.homeTitle} /></h1>
-                <div><MultiLingualContent contentID={props.homeText} /></div>
-                <a href="/contact" className={styles['slider-btn']}>{<MultiLingualContent contentID="contact" />}</a>
-            </div> */}
-            {/* <Content title='homeTitle' text='homeText' /> */}
         </div>
     )
 }

@@ -14,23 +14,23 @@ const Links = () => {
                 <li><a href="https://www.facebook.com/assistantCharlie" target="_blank" rel="noreferrer" >Facebook</a></li>
                 <li><a href="https://www.linkedin.com/in/hani-kov%C3%A1%C4%8Dov%C3%A1-4b5048b9/" target="_blank" rel="noreferrer" >Linkedin</a></li>
                 <li><a href="https://www.instagram.com/bunny_boy_the_traveller/" target="_blank" rel="noreferrer" >Instagram</a></li>
-                <li><a href="mailto: mariu6@gmail.com">Email</a></li>
+                <li><a href="mailto: info.virtualcharlie@gmail.com">Email</a></li>
             </ul>
 
             <ul className={styles.icons}>
                 <li className={styles.icon}><a href="https://www.facebook.com/assistantCharlie" target="_blank" rel="noreferrer" >
-                    <img src={faceIcon} alt="Icon 1" />
+                    <img src={faceIcon} alt="Charlie Virtual Assistant Facebook page link" />
                 </a></li>
                 <li className={styles.icon}><a href="https://www.linkedin.com/in/hani-kov%C3%A1%C4%8Dov%C3%A1-4b5048b9/" target="_blank" rel="noreferrer" >
-                    <img src={linkedIcon} alt="Icon 2" />
+                    <img src={linkedIcon} alt="Charlie Virtual Assistant Linkedin page link" />
                 </a></li>
             </ul>
             <ul className={styles.icons}>
                 <li className={styles.icon}><a href="https://www.instagram.com/bunny_boy_the_traveller/" target="_blank" rel="noreferrer" >
-                    <img src={instaIcon} alt="Icon 3" />
+                    <img src={instaIcon} alt="Charlie Virtual Assistant Instagram page link" />
                 </a></li>
-                <li className={styles.icon}><a href="mailto: mariu6@gmail.com">
-                    <img src={mailIcon} alt="Icon 4" />
+                <li className={styles.icon}><a href="mailto: info.virtualcharlie@gmail.com">
+                    <img src={mailIcon} alt="Charlie Virtual Assistant external mail link" />
                 </a></li>
             </ul>
         </div>

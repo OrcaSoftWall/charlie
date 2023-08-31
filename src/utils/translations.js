@@ -157,7 +157,7 @@ const translations = {
       p2: `That's when I knew I had to break free. ` +
         `I went on a quest to find a job that would give me the freedom I craved. ` +
         `I hopped from one company to another, always learning and adapting quickly to new roles. ` +
-        `But something was missing. I would finish my work at lightning speed, only to be left with empty and mundane hours. ` +
+        `But something was missing. I would finish my work at lightning speed and rigorously, without being noticed and I couldn't shake the feeling that I had so much more to offer. ` +
         `I couldn't shake the feeling that I had so much more to give.`,
       p3: `And then it hit me: Why not take matters into my own hands? ` +
         `I made the bold decision to become self-employed, believing that my skills would flourish in helping businesses grow.`,
@@ -396,12 +396,12 @@ const translations = {
 
     homeTitle: 'Prečo potrebujete virtuálnu asistentku?',
     homeText: {
-      p1: `Zahlcujú vaše podnikanie administratívne úlohy? Je pre vás náročné držať krok s kontrolami a aktualizáciami údajov, údržbou poštových schránok a sociálnymi médiami? Už nehľadajte! Som tu, aby som vám poskytol správne riešenia, ktoré posunú vašu firmu správnym smerom.`,
-      p2: `Rozumiem výzvam, ktoré so sebou prináša podnikanie. Viem, že váš čas je cenný a mali by ste ho venovať kľúčovým činnostiam, ktoré podporujú rast. Tu prichádza na rad váš virtuálny asistent.`,
-      p3: `So svojimi odbornými znalosťami ako virtuálny asistent sa špecializujem na vybavovanie administratívnych úloh, ktoré zaisťujú, aby vaša firma fungovala hladko a efektívne. Potrebujete niekoho, kto by starostlivo skontroloval a aktualizoval vaše údaje? Mám vás k dispozícii. Už vás nebaví žonglovať s viacerými poštovými schránkami a snažiť sa udržať si prehľad o otázkach zákazníkov? Nechajte to na mňa. Chcete si vybudovať silnú online prítomnosť prostredníctvom sociálnych médií, ale chýba vám to?`,
-      p4: `Ale som viac než len poskytovateľ riešení. Som váš oddaný partner v úspechu. Keď budete so mnou spolupracovať, získate prístup k niekomu, komu na vašom podnikaní skutočne záleží. Venujem čas tomu, aby som pochopil vaše jedinečné potreby, ciele a identitu značky a zabezpečil, že moje služby budú dokonale zodpovedať vašej vízii.`,
-      p5: `Predstavte si, že máte viac času a pokoja s vedomím, že vaše administratívne úlohy sú vybavované bezchybne. Predstavte si, že vaše podnikanie prekvitá, keď odborne spravujem vaše údaje, udržiavam vaše poštové schránky organizované a vytváram pútavý obsah sociálnych médií.`,
-      p6: `Takže, ste pripravení posunúť svoje podnikanie do nových výšin? Vydajme sa na túto cestu spoločne. Kontaktujte ma ešte dnes a porozprávajme sa o tom, ako môžu moje riešenia na mieru posunúť vaše podnikanie vpred. Váš úspech je mojou vášňou a nemôžem sa dočkať, až budem toho súčasťou.`,
+      p1: `Zahlcujú Vaše podnikanie administratívne úlohy? Je pre Vás náročné držať krok s kontrolami a aktualizáciami údajov, údržbou mailov a sociálnymi sieťami? Už nehľadajte! Som tu, aby som Vám poskytla správne riešenia, ktoré posunú Vaše podnikanie správnym smerom.`,
+      p2: `Rozumiem výzvam, ktoré so sebou prináša podnikanie. Viem, že Váš čas je cenný a mali by ste ho venovať kľúčovým činnostiam, ktoré podporujú jeho rast. Práve tu prichádza na rad Vaša virtuálna asistentka.`,
+      p3: `So svojimi odbornými znalosťami ako virtuálna asistentka sa špecializujem na vybavovanie administratívnych úloh, ktoré zaisťujú, aby Vaša firma fungovala hladko a efektívne. Potrebujete niekoho, kto by starostlivo skontroloval a aktualizoval Vaše databázy? Máte ma k dispozícii. Už Vás nebaví žonglovať medzi viacerými mailboxami a snažiť sa udržať si prehľad o otázkach zákazníkov? Nechajte to na mňa. Chcete si vybudovať silnú online stratégiu prostredníctvom sociálnych médií, ale chýba Vám na to čas? Považujte to so mnou za vybavené.`,
+      p4: `Nezabúdajte, že som viac než len poskytovateľ služieb. Som Váš oddaný biznis partner na ceste k úspechu. Ak budete so mnou spolupracovať, získate prístup k niekomu, komu na Vašom podnikaní skutočne záleží. Venujem veľa času tomu, aby som pochopila Vaše jedinečné potreby, ciele a identitu značky a zabezpečila, že moje služby budú dokonale zodpovedať Vašej vízii.`,
+      p5: `Predstavte si, že máte viac času a pokoja s vedomím, že Vaše administratívne úlohy sú vybavované bezchybne. Predstavte si, že Vaše podnikanie prekvitá, keď odborne spravujem Vaše dáta, udržiavam Váš mailbox organizovaný a vytváram pútavý obsah pre sociálne siete.`,
+      p6: `Takže, ste pripravení posunúť svoje podnikanie do nových výšin? Vydajme sa na túto cestu spoločne. Kontaktujte ma ešte dnes a porozprávajme sa o tom, ako môžu moje služby na mieru posunúť Vaše podnikanie vpred. Váš úspech je mojou prioritou a nemôžem sa dočkať, až budem toho súčasťou.`,
 
     },
 
@@ -417,20 +417,20 @@ const translations = {
     // homeCarouselDescription5: '',
 
     homeCarouselTitle1: "Spoľahlivosť",
-    homeCarouselDescription1: `Som neochvejný vo svojom záväzku k dokonalosti a neustále sa snažím zabezpečiť, aby vaše úlohy boli dokončené nielen včas, ale aj precízne. Môžete sa na mňa spoľahnúť, že dosiahnem vynikajúce výsledky a nenechám priestor na pochybnosti alebo sklamanie.`,
+    homeCarouselDescription1: `Som neúnavná vo svojom záväzku k dokonalosti a neustále sa snažím zabezpečiť, aby Vaše úlohy boli dokončené nielen včas, ale aj precízne. Môžete sa na mňa spoľahnúť, že preukážem vynikajúce výsledky a nenechám priestor na pochybnosti alebo sklamanie.`,
     homeCarouselTitle2: "Nezávislosť",
-    homeCarouselDescription2: `Prijímajúc večnú cestu sebazdokonaľovania, neustále sa zapájam do vzdelávania a navštevujem kurzy, aby som si zdokonalil svoje zručnosti. Moja starostlivá pozornosť venovaná detailom zabezpečuje komplexný a dôkladný prístup ku všetkým zadaniam.`,
-    homeCarouselTitle3: "Oslobodenie času",
-    homeCarouselDescription3: `Predstavte si vzácne hodiny, ktoré by ste mohli získať späť na expanziu podnikania, uprednostnenie kľúčových činností alebo dokonca doprianie si zaslúženého osobného času. Využitím mojich služieb môžu podnikatelia odomknúť množstvo času a presmerovať ho na to, na čom skutočne záleží.`,
+    homeCarouselDescription2: `Prijímajúc večnú cestu sebazdokonaľovania, neustále sa zapájam do vzdelávania a navštevujem kurzy, aby som si zdokonalila svoje zručnosti. Moja starostlivá pozornosť venovaná detailom zabezpečuje komplexný a dôkladný prístup ku všetkým zadaniam.`,
+    homeCarouselTitle3: "Oslobodenie od času",
+    homeCarouselDescription3: `Predstavte si vzácne hodiny, ktoré by ste mohli získať späť na expanziu podnikania, uprednostnenie kľúčových činností alebo dokonca doprianie si zaslúženého osobného času. Využitím mojich služieb môžu podnikatelia získať množstvo času a využiť ho na to, na čom im skutočne záleží.`,
     homeCarouselTitle4: "Finančná efektívnosť",
-    homeCarouselDescription4: `Jedným z najatraktívnejších aspektov práce s virtuálnym asistentom je efektívnosť nákladov. S virtuálnym asistentom platíte len za konkrétne služby, ktoré požadujete. Rozlúčte sa s výdavkami súvisiacimi s daňami, kancelárskym vybavením a školením. V porovnaní s prijatím zamestnanca sa dodatočné režijné náklady rozplynú, keďže sa o všetko postaráme samostatne.`,
+    homeCarouselDescription4: `Jedným z najatraktívnejších aspektov práce s virtuálnym asistentom je efektívnosť nákladov. S virtuálnym asistentom platíte len za konkrétne služby, ktoré požadujete. Rozlúčte sa s výdavkami súvisiacimi s daňami, kancelárskym vybavením a školením. V porovnaní s prijatím zamestnanca sa dodatočné režijné náklady rozplynú, keďže sa o všetko postarám samostatne.`,
     homeCarouselTitle5: "Prevencia vyhorenia - 'Burnout'",
-    homeCarouselDescription5: `Podnikatelia často čelia ohromnej výzve žonglovať s viacerými prioritami, takže sú náchylní na vyhorenie. Zadajte virtuálneho asistenta, ktorý je riešením tohto problému. Ak mi zveríte svoju pracovnú náplň, môžete sa oslobodiť a sústrediť sa výlučne na úlohy, ktoré si vyžadujú vašu jedinečnú profesionálnu odbornosť.`,
+    homeCarouselDescription5: `Podnikatelia často čelia ohromnej výzve pracovať s viacerými prioritami naraz, takže sú náchylní na vyhorenie. Preto je virtuálny asistent riešením tohto problému. Ak mi zveríte časť svojej pracovnej náplňe, môžete sa oslobodiť a sústrediť sa výlučne na úlohy, ktoré si vyžadujú vašu jedinečnú profesionálnu odbornosť.`,
 
 
 
 
-    ourServices: 'Naše služby',
+    ourServices: 'Služby',
 
     administration: 'Administratíva',
     administrationSubtitle: 'Potrebujete pomôcť s administratívou?',
@@ -513,15 +513,15 @@ const translations = {
 
     aboutTitle: '',
     aboutText1: {
-      p1: `Kedysi dávno som sa ocitol v korporátnom svete, pričom som si počínal dobre v back-office práce, ktorá mi umožňovala prosperovať s minimálnym dohľadom. Život bol dobrý, kým neprišiel nový manažér, ktorý so sebou priniesol štýl mikromanažmentu, ktorý udusil moju nezávislosť a kreativitu.`,
-      p2: `Vtedy som vedel, že sa musím oslobodiť. Vydal som sa na hľadanie práce, ktorá by mi dala slobodu, po ktorej som túžila. Preskakoval som z jednej spoločnosti do druhej, neustále som sa učil a rýchlo sa prispôsoboval novým rolám. Ale niečo tomu chýbalo. Svoju prácu by som dokončil rýchlosťou blesku, len aby mi zostali prázdne a všedné hodiny. Nemohol som sa zbaviť pocitu, že môžem dať oveľa viac.`,
-      p3: `A potom ma to napadlo: Prečo nezobrať veci do vlastných rúk? Urobil som odvážne rozhodnutie stať sa samostatne zárobkovo činnou osobou a veril som, že moje schopnosti prekvitajú pri pomoci podnikom rásť.`,
+      p1: `Kedysi dávno som sa ocitla v korporátnom svete, pričom som si počínala dobre v rámci back-office práce, ktorá mi umožňovala prosperovať s minimálnym dohľadom. Pracovný život išiel dobre, kým neprišiel nový manažér, ktorý so sebou priniesol štýl mikromanažmentu, ktorý dusil moju nezávislosť a kreativitu.`,
+      p2: `Vtedy som vedela, že sa musím oslobodiť a vydala som sa na cestu hľadania práce, ktorá by mi dala slobodu, po ktorej som túžila. Preskakoval som z jednej spoločnosti do druhej, neustále som sa učila a rýchlo sa prispôsobovala novým rolám. Ale niečo tomu stále chýbalo. Svoju prácu som si dokončila rýchlosťou blesku a dôsledne, avšak bez povšimnutia a nemohola som sa zbaviť pocitu, že môžem ponúknuť oveľa viac.`,
+      p3: `A potom ma to napadlo: Prečo nezobrať veci do vlastných rúk? Urobila som odvážne rozhodnutie a stala sa samostatne zárobkovo činnou osobou a využila tak svoje schopnosti na maximum a pomáham podnikom rásť.`,
 
     },
     aboutText2: {
-      p1: `Ako virtuálny asistent nie som len ďalšou tvárou v korporátnom stroji. Som tu, aby som vám ponúkol osobný kontakt, skutočné spojenie a oddanosť vášmu úspechu. Chcem byť viac než len poskytovateľom služieb; Chcem byť tvojím dôveryhodným partnerom.`,
-      p2: `Keď sa rozhodnete so mnou pracovať, nenajímate si bezmennú entitu alebo organizáciu bez tváre. Vyberáte si niekoho, kto rozumie výzvam a frustráciám vyplývajúcim z obmedzenia v tradičnom pracovnom prostredí. Vyberáte si niekoho, kto verí, že skutočný úspech spočíva v slobode objavovať, tvoriť a mať zmysluplný vplyv.`,
-      p3: `Prenesiem svoju efektívnosť, vynaliezavosť a vášeň, aby ste sa mohli sústrediť na to, čo robíte najlepšie, pričom viete, že administratívna stránka je v rukách odborníkov.`,
+      p1: `Ako virtuálna asistentka nie som len ďalšou tvárou v korporátnom svete. Som tu, aby som Vám ponúkla osobitý kontakt, skutočné spojenie a oddanosť Vášmu úspechu. Chcem byť viac než len poskytovateľom služieb; chcem byť Vašim dôveryhodným partnerom.`,
+      p2: `Keď sa rozhodnete so mnou spolupracovať, nenajímate si bezmennú entitu alebo organizáciu bez tváre. Vyberáte si niekoho, kto rozumie výzvam a frustráciám vyplývajúcim z obmedzenia v tradičnom pracovnom prostredí. Vyberáte si niekoho, kto verí, že skutočný úspech spočíva v slobode objavovať, tvoriť a mať zmysluplný vplyv.`,
+      p3: `Prinášam Vám svoju efektívnosť, vynaliezavosť a vášeň, aby ste sa mohli sústrediť na to, čo robíte najlepšie, pričom viete, že administratívna stránka Vášho podnikania je v tých správnych rukách.`,
 
     },
 

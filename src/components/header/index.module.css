@@ -51,12 +51,13 @@
     /* to prevent jumping when hovered */
     padding: 14px;
     text-decoration: none;
-    font-family: segoe script;
+    /* font-family: segoe script; */
     /* font-family: -apple-system, BlinkMacSystemFont,
         “Segoe UI”, “Roboto”, “Oxygen”,
         “Ubuntu”, “Cantarell”, “Fira Sans”,
         “Droid Sans”, “Helvetica Neue”, sans-serif; */
     /* font-family: 'White Angelica'; */
+    font-size: 21px;
 }
 
 /* Change the link color to #555 (gray) on hover */
@@ -80,6 +81,8 @@
     /* .tabs li, */
     .tabs a {
         display: none;
+        font-family: segoe script;
+        font-size: 16px;
     }
 
     .nav-side-menu.start {

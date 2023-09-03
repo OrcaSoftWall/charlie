@@ -385,7 +385,7 @@ const translations = {
 
   sk: {
     welcome: 'Vitajte na našej stránke o Virtuálnom Asistentovi!',
-    description: 'Poskytujeme profesionálne služby virtuálneho asistenta na pomoc s vašimi úlohami.',
+    description: 'Poskytujeme profesionálne služby virtuálneho asistenta na pomoc s Vašimi úlohami.',
     getStarted: 'Začať',
     home: 'Domov',
     services: 'Služby',
@@ -425,7 +425,7 @@ const translations = {
     homeCarouselTitle4: "Finančná efektívnosť",
     homeCarouselDescription4: `Jedným z najatraktívnejších aspektov práce s virtuálnym asistentom je efektívnosť nákladov. S virtuálnym asistentom platíte len za konkrétne služby, ktoré požadujete. Rozlúčte sa s výdavkami súvisiacimi s daňami, kancelárskym vybavením a školením. V porovnaní s prijatím zamestnanca sa dodatočné režijné náklady rozplynú, keďže sa o všetko postarám samostatne.`,
     homeCarouselTitle5: "Prevencia vyhorenia - 'Burnout'",
-    homeCarouselDescription5: `Podnikatelia často čelia ohromnej výzve pracovať s viacerými prioritami naraz, takže sú náchylní na vyhorenie. Preto je virtuálny asistent riešením tohto problému. Ak mi zveríte časť svojej pracovnej náplňe, môžete sa oslobodiť a sústrediť sa výlučne na úlohy, ktoré si vyžadujú vašu jedinečnú profesionálnu odbornosť.`,
+    homeCarouselDescription5: `Podnikatelia často čelia ohromnej výzve pracovať s viacerými prioritami naraz, takže sú náchylní na vyhorenie. Preto je virtuálny asistent riešením tohto problému. Ak mi zveríte časť svojej pracovnej náplňe, môžete sa oslobodiť a sústrediť sa výlučne na úlohy, ktoré si vyžadujú Vašu jedinečnú profesionálnu odbornosť.`,
 
 
 
@@ -453,8 +453,8 @@ const translations = {
     graficFoot: '',
 
     texts: 'Texty a preklady',
-    textsSubtitle: `Ak sa vám zdá ťažké poradiť si s textami alebo prekladmi, nechajte to na mňa. Či už potrebujete texty na web, reklamu alebo potrebujete vytvoriť skript na oslovovanie klientov. Okrem bežných prekladov ako magister z molekulárnej biológie ponúkam aj preklady odborných biologických textov pre vaše publikácie, alebo pomoc s prípravou dokumentov, rešeršemi v literatúre a jazykovými korektúrami.`,
-    textsText: `Tvorba a plánovanie obsahu, článkov, textovania príspevkov (úprava článkov a druhé oči v prípade možných chýb vo vašom texte), grafika, prepisovanie (dokumentov, podcastov alebo videonahrávok), vytváranie prehľadných tabuliek alebo databáz zákazníkov.`,
+    textsSubtitle: `Ak sa vám zdá ťažké poradiť si s textami alebo prekladmi, nechajte to na mňa. Či už potrebujete texty na web, reklamu alebo potrebujete vytvoriť skript na oslovovanie klientov. Okrem bežných prekladov ako magister z molekulárnej biológie ponúkam aj preklady odborných biologických textov pre Vaše publikácie, alebo pomoc s prípravou dokumentov, rešeršemi v literatúre a jazykovými korektúrami.`,
+    textsText: `Tvorba a plánovanie obsahu, článkov, textovania príspevkov (úprava článkov a druhé oči v prípade možných chýb vo Vašom texte), grafika, prepisovanie (dokumentov, podcastov alebo videonahrávok), vytváranie prehľadných tabuliek alebo databáz zákazníkov.`,
     textsFoot: '',
 
     lucky: 'Nenašli ste čo ste potrebovali?',
@@ -540,7 +540,7 @@ const translations = {
 
   cs: {
     welcome: 'Vítejte na naší stránce o Virtuálním Asistentovi!',
-    description: 'Poskytujeme profesionální služby virtuálního asistenta pro pomoc s vašimi úkoly.',
+    description: 'Poskytujeme profesionální služby virtuálního asistenta pro pomoc s Vašimi úkoly.',
     getStarted: 'Začít',
     home: 'Domů',
     services: 'Služby',
@@ -551,12 +551,12 @@ const translations = {
 
     homeTitle: 'Proč potřebujete virtuální asistentku?',
     homeText: {
-      p1: `Zahlcují vaše podnikání administrativní úkoly? Stává se vám zdrcující držet krok s kontrolami a aktualizacemi dat, údržbou poštovních schránek a sociálními médii? Už nehledejte! Jsem tu, abych vám poskytl správná řešení, která posunou vaše podnikání správným směrem.`,
-      p2: `Rozumím výzvám, které s sebou přináší podnikání. Vím, že váš čas je cenný a měl by být věnován základním činnostem, které podporují růst. V tom přichází na řadu váš virtuální asistent.`,
-      p3: `Se svými odbornými znalostmi virtuálního asistenta se specializuji na vyřizování administrativních úkolů, které zajišťují hladké a efektivní fungování vaší firmy. Potřebujete někoho, kdo by pečlivě zkontroloval a aktualizoval vaše data? Mám vás k dispozici. Už vás nebaví žonglovat s více poštovními schránkami a snažit se udržet si přehled o zákaznických dotazech? Nechte to na mně. Chcete si vybudovat silnou online přítomnost prostřednictvím sociálních sítí, ale chybí vám to hotové?`,
-      p4: `Ale jsem víc než jen poskytovatel řešení. Jsem váš oddaný partner v úspěchu. Když se mnou budete spolupracovat, získáte přístup k někomu, komu na vašem podnikání skutečně záleží. Věnuji čas tomu, abych porozuměl vašim jedinečným potřebám, cílům a identitě značky a zajistil, že mé služby budou dokonale odpovídat vaší vizi.`,
-      p5: `Představte si, že máte více času a klidu s vědomím, že vaše administrativní úkoly jsou zpracovány bezchybně. Představte si, že vaše podnikání vzkvétá, když odborně spravuji vaše data, udržuji vaše e-mailové schránky organizované a vytvářím poutavý obsah na sociálních sítích.`,
-      p6: `Takže, jste připraveni posunout své podnikání do nových výšin? Vydejme se na tuto cestu společně. Kontaktujte mě ještě dnes a prodiskutujeme, jak moje řešení na míru mohou posouvat vaše podnikání vpřed. Váš úspěch je mou vášní a nemůžu se dočkat, až budu jeho součástí.`,
+      p1: `Zahlcují Vaše podnikání administrativní úkoly? Je pro Vás náročné držet krok s kontrolami a aktualizacemi dat, údržbou mailů a sociálními sítěmi? Už nehledejte! Jsem tady, abych Vám poskytla správná řešení, která posunou Vaše podnikání správným směrem.`,
+      p2: `Rozumím výzvám, které s sebou přináší podnikání. Vím, že Váš čas je cenný a měli byste jej věnovat klíčovým činnostem, které podporují jeho růst. Právě zde přichází na řadu Vaše virtuální asistentka.`,
+      p3: `Se svými odbornými znalostmi jako virtuální asistentka se specializuji na vyřizování administrativních úkolů, které zajišťují, aby Vaše firma fungovala hladce a efektivně. Potřebujete někoho, kdo by pečlivě zkontroloval a aktualizoval Vaše databáze? Máte mě k dispozici. Už Vás nebaví žonglovat mezi více mailboxy a snažit se udržet si přehled o otázkách zákazníků? Nechte to na mě. Chcete si vybudovat silnou online strategii prostřednictvím sociálních médií, ale chybí Vám na to čas? Považujte to se mnou za vybavené.`,
+      p4: `Nezapomínejte, že jsem víc než jen poskytovatel služeb. Jsem Váš oddaný byznys partner na cestě k úspěchu. Budete-li se mnou spolupracovat, získáte přístup k někomu, komu na Vašem podnikání skutečně záleží. Věnuji spoustu času tomu, abych pochopila Vaše jedinečné potřeby, cíle a identitu značky a zajistila, že mé služby budou dokonale odpovídat Vaší vizi.`,
+      p5: `Představte si, že máte více času a klidu s vědomím, že Vaše administrativní úkoly jsou vyřizovány bezchybně. Představte si, že Vaše podnikání vzkvétá, když odborně spravuji Vaše data, udržuji Váš mailbox organizovaný a vytvářím poutavý obsah pro sociální sítě.`,
+      p6: `Takže, jste připraveni posunout své podnikání do nových výšin? Vydejme se na tuto cestu společně. Kontaktujte mě ještě dnes a promluvme si o tom, jak mohou mé služby na míru posunout Vaše podnikání vpřed. Váš úspěch je mou prioritou a nemůžu se dočkat, až budu toho součástí.`,
     },
 
     // homeCarouselTitle1: '',
@@ -571,15 +571,15 @@ const translations = {
     // homeCarouselDescription5: '',
 
     homeCarouselTitle1: "Spolehlivost",
-    homeCarouselDescription1: `Jsem neochvějný ve svém závazku k dokonalosti a důsledně se snažím zajistit, aby vaše úkoly byly dokončeny nejen včas, ale také s přesností. Můžete se na mě spolehnout, že dodám vynikající výsledky a nenechám žádný prostor pro pochybnosti nebo zklamání.`,
+    homeCarouselDescription1: `Jsem neúnavná ve svém závazku k dokonalosti a neustále se snažím zajistit, aby Vaše úkoly byly dokončeny nejen včas, ale také precizně. Můžete se na mě spolehnout, že prokážu vynikající výsledky a nenechám prostor pro pochybnosti nebo zklamání.`,
     homeCarouselTitle2: "Nezávislost",
-    homeCarouselDescription2: `Přijímám věčnou cestu sebezdokonalování, neustále se zapojuji do učení a navštěvuji kurzy, abych zdokonalil své dovednosti. Moje pečlivá pozornost k detailu zajišťuje komplexní a důkladný přístup ke všem úkolům.`,
-    homeCarouselTitle3: "Osvobození času",
-    homeCarouselDescription3: `Představte si ty vzácné hodiny, které by bylo možné získat zpět na obchodní expanzi, upřednostnění klíčových činností nebo dokonce dopřát si zasloužený osobní čas. Využitím mých služeb mohou podnikatelé odemknout spoustu času a přesměrovat ho k tomu, na čem skutečně záleží.`,
+    homeCarouselDescription2: `Přijímajíc věčnou cestu sebezdokonalování, neustále se zapojuji do vzdělávání a navštěvuji kurzy, abych si zdokonalila své dovednosti. Moje pečlivá pozornost věnovaná detailům zajišťuje komplexní a důkladný přístup ke všem zadáním.`,
+    homeCarouselTitle3: "Získání času",
+    homeCarouselDescription3: `Představte si vzácné hodiny, které byste mohli získat zpět na expanzi podnikání, upřednostnění klíčových činností nebo dokonce dopřání si zaslouženého osobního času. Využitím mých služeb mohou podnikatelé získat spoustu času a využít ho k tomu, na čem jim skutečně záleží.`,
     homeCarouselTitle4: "Finanční efektivita",
-    homeCarouselDescription4: `Jedním z nejatraktivnějších aspektů práce s virtuálním asistentem je hospodárnost. S virtuální asistentkou platíte pouze za konkrétní služby, které požadujete. Rozlučte se s výdaji souvisejícími s daněmi, kancelářským vybavením a školením. V porovnání s najímáním zaměstnance se dodatečné režijní náklady rozplynou v netuctovém vzduchu, protože je vše řešeno samostatně.`,
+    homeCarouselDescription4: `Jedním z nejatraktivnějších aspektů práce s virtuálním asistentem je efektivnost nákladů. S virtuálním asistentem platíte jen za konkrétní služby, které požadujete. Rozlučte se s výdaji souvisejícími s daněmi, kancelářským vybavením a školením. Ve srovnání s přijetím zaměstnance se dodatečné režijní náklady rozplynou, protože se o vše postarám samostatně.`,
     homeCarouselTitle5: "Prevence vyhoření - 'Burnout'",
-    homeCarouselDescription5: `Podnikatelé často čelí obrovské výzvě žonglování s více prioritami, takže jsou náchylní k vyhoření. Vstupte do virtuálního asistenta, řešení právě tohoto problému. Tím, že mi svěříte svou pracovní zátěž, se můžete uvolnit a soustředit se pouze na úkoly, které vyžadují vaši jedinečnou profesionální odbornost.`,
+    homeCarouselDescription5: `Podnikatelé často čelí ohromné výzvě pracovat s více prioritami najednou, takže jsou náchylní k vyhoření. Proto je virtuální asistent řešením tohoto problému. Svěříte-li mi část své pracovní náplně, můžete se osvobodit a soustředit se výlučně na úkoly, které vyžadují Vaši jedinečnou profesionální odbornost.`,
 
 
 
@@ -602,13 +602,13 @@ const translations = {
     eshopFoot: '',
 
     grafic: 'Grafický design',
-    graficSubtitle: `Bez ohledu na to, zda potřebujete profesionální logo na míru nebo design pro pozvánky, letáky, vizitky, oznámení nebo jídelníček či ceník do kosmetického salonu, jsem tady pro Vás. Stačí mi poskytnout podrobnosti o vašich požadavcích a můžeme začít pracovat na vytvoření profesionálního designu, který vyhovuje vašim potřebám.`,
+    graficSubtitle: `Bez ohledu na to, zda potřebujete profesionální logo na míru nebo design pro pozvánky, letáky, vizitky, oznámení nebo jídelníček či ceník do kosmetického salonu, jsem tady pro Vás. Stačí mi poskytnout podrobnosti o Vašich požadavcích a můžeme začít pracovat na vytvoření profesionálního designu, který vyhovuje Vašim potřebám.`,
     graficText: `Logo, Design obalů a produktů, Digitální produkty, Marketingové materiály, Tiskoviny, Reklamní materiály (bannery), Plakáty do podniku/na event, Jídelní a nápojové lístky, Ceníky, Pozvánky na události, Oznámení, Návrh příspěvků na FB/IG, Úprava fotek, videí, vkládání titulek.`,
     graficFoot: '',
 
     texts: 'Texty a překlady',
-    textsSubtitle: `Pokud je pro vás obtížné vypořádat se s texty nebo překlady, nechte to na mě. Ať už potřebujete texty na web, do reklamy nebo potřebujete vytvořit skript pro oslovování klientů. Kromě běžných překladů jako magistra molekulární biologie nabízím také překlady odborných biologických textů pro vaše publikace, nebo pomoc s přípravou dokumentů, rešeršemi v literatuře a jazykovými korekturami.`,
-    textsText: `Tvorba a plánování obsahu, článků, textování příspěvků (editace článků a druhé oči v případě možných chyb ve vašem textu), grafika, přepisování (dokumentů, podcastů nebo videonahrávek), vytváření přehledných tabulek nebo zákaznických databází.`,
+    textsSubtitle: `Pokud je pro vás obtížné vypořádat se s texty nebo překlady, nechte to na mě. Ať už potřebujete texty na web, do reklamy nebo potřebujete vytvořit skript pro oslovování klientů. Kromě běžných překladů jako magistra molekulární biologie nabízím také překlady odborných biologických textů pro Vaše publikace, nebo pomoc s přípravou dokumentů, rešeršemi v literatuře a jazykovými korekturami.`,
+    textsText: `Tvorba a plánování obsahu, článků, textování příspěvků (editace článků a druhé oči v případě možných chyb ve Vašem textu), grafika, přepisování (dokumentů, podcastů nebo videonahrávek), vytváření přehledných tabulek nebo zákaznických databází.`,
     textsFoot: '',
 
     lucky: 'Nenašli jste co jste potřebovali?',
@@ -670,15 +670,15 @@ const translations = {
 
     aboutTitle: 'Kdo je Vaše virtuální asistentka ?',
     aboutText1: {
-      p1: `Kdysi dávno jsem zjistil, že jsem uvězněn v korporátním světě, dařilo se mi dobře v back-office práci, která mi umožňovala prosperovat s minimálním dohledem. Život byl dobrý, dokud nepřišel nový manažer, který s sebou přinesl styl mikrořízení, který udusil moji nezávislost a kreativitu.`,
-      p2: `Tehdy jsem věděl, že se musím osvobodit. Šel jsem hledat práci, která by mi dala svobodu, po které jsem toužil. Přeskakoval jsem z jedné společnosti do druhé, neustále jsem se učil a rychle se přizpůsoboval novým rolím. Ale něco tomu chybělo. Svou práci bych dokončil rychlostí blesku, jen aby mi zůstaly prázdné a všední hodiny. Nemohl jsem se zbavit pocitu, že toho můžu dát mnohem víc.`,
-      p3: `A pak mě to napadlo: Proč nevzít věci do vlastních rukou? Učinil jsem odvážné rozhodnutí stát se osobou samostatně výdělečně činnou, protože jsem věřil, že mé dovednosti rozkvetou a pomohou firmám růst.`,
+      p1: `Kdysi dávno jsem zjistila, že jsem uvězněna v korporátním světě, dařilo se mi dobře v back-office práci, která mi umožňovala prosperovat s minimálním dohledem. Pracovní život byl dobrý, dokud nepřišel nový manažer, který s sebou přinesl styl mikrořízení, který udusil moji nezávislost a kreativitu.`,
+      p2: `Tehdy jsem věděla, že se musím osvobodit. Šla jsem hledat práci, která by mi dala svobodu, po které jsem toužila. Přeskakovala jsem z jedné společnosti do druhé, neustále jsem se učila a rychle se přizpůsobovala novým rolím. Ale něco tomu chybělo. Svou práci jsem dokončila bleskurychle a důsledně, ale bez povšimnutí, a nemohla jsem se zbavit pocitu, že mám daleko víc co nabídnout.`,
+      p3: `A pak mě to napadlo: Proč nevzít věci do vlastních rukou? Učinila jsem odvážné rozhodnutí stát se osobou samostatně výdělečně činnou, protože věřím, že mé dovednosti rozkvetou a pomohou firmám růst.`,
 
     },
     aboutText2: {
-      p1: `Nyní, jako virtuální asistent, nejsem jen další tváří ve firemním stroji. Jsem tu, abych vám nabídl osobní přístup, skutečné spojení a odhodlání vašemu úspěchu. Chci být víc než jen poskytovatel služeb; Chci být tvým důvěryhodným partnerem.`,
+      p1: `Nyní, jako virtuální asistentka, nejsem jen další tváří ve korporátním světě. Jsem tu, abych vám nabídla osobní přístup, skutečné spojení a odhodlání Vašemu úspěchu. Chci být víc než jen poskytovatel služeb; chci být Vašim důvěryhodným partnerem.`,
       p2: `Když se rozhodnete se mnou pracovat, nenajímáte si bezejmennou entitu nebo organizaci bez tváře. Vybíráte si někoho, kdo rozumí výzvám a frustracím vyplývajícím z omezení v tradičním pracovním prostředí. Vybíráte si někoho, kdo věří, že skutečný úspěch spočívá ve svobodě zkoumat, tvořit a mít smysluplný dopad.`,
-      p3: `Představím svou efektivitu, vynalézavost a vášeň, takže se můžete soustředit na to, co umíte nejlépe, a přitom vědět, že administrativní stránka je v rukou odborníků.`,
+      p3: `Přináším Vám svoji efektivnost, vynalézavost a vášeň, abyste se mohli soustředit na to, co děláte nejlépe, přičemž víte, že administrativní stránka Vašeho podnikání je v těch správných rukou.`,
 
     },
 

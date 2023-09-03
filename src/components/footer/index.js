@@ -1,10 +1,7 @@
 import { useState, useContext } from 'react';
 import styles from './index.module.css';
 import image from '../../images/Cahrlie_logo2.png';
-import MultiLingualContent from '../MultyLingualContent';
-// import links from '../../utils/navigation';
 import Links from './links';
-import Player from '../../utils/audioplayer';
 
 const Footer = () => {
 

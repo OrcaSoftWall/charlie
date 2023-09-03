@@ -11,7 +11,7 @@ const translations = {
     home: 'Home',
     services: 'Services',
     pricing: 'Price list',
-    about: 'About us',
+    about: 'About me',
     portfolio: 'Portfolio',
     contact: 'Contact',
 
@@ -51,11 +51,11 @@ const translations = {
       `you can free yourself to concentrate solely on tasks that demand your unique professional expertise.`,
 
 
-    ourServices: 'Our Services',
+    ourServices: 'My Services',
 
     administration: 'Administration',
     administrationSubtitle: 'Do you need help with administration?',
-    administrationText: `Our range of services includes, for example: Online information search, ` +
+    administrationText: `My range of services includes, for example: Online information search, ` +
       `Data management, Calendar management, Document editing, Reports, Market research, Document processing, Data entry.`,
     administrationFoot: 'Let me know how I can help you!',
 
@@ -77,16 +77,16 @@ const translations = {
       `Just provide me with the details of your requirements and we can start working on creating a professional design that suits your needs.`,
     graficText: `Logo, Packaging and product design, Digital products, Marketing materials, Printed materials, ` +
       `Advertising materials (banners), Business/event posters, Food and beverage menus, Price lists, Event invitations, ` +
-      `Announcements, FB/IG post design, Photo editing , videos, inserting subtitles`,
+      `Announcements, FB/IG post design, Photo editing, videos, inserting subtitles.`,
     graficFoot: '',
 
     texts: 'Texts & Translations',
-    textsSubtitle: `If you find it difficult to deal with texts or translations, leave it to us. ` +
+    textsSubtitle: `If you find it difficult to deal with texts or translations, leave it to me. ` +
       `Whether you need texts for the website, for advertising or you need to create a script for addressing clients. ` +
       `In addition to regular translations, as a Master in molecular biology, I also offer translations of professional biological texts for your publications, ` +
       `or help with the preparation of documents, literature searches and language proofreading.`,
     textsText: `Creation and planning of content, articles, posts texting (editing articles and second eyes in case of possible errors in your text), ` +
-      `graphics, rewriting (documents, podcasts or video recordings), creating clear tables or customer databases`,
+      `graphics, rewriting (documents, podcasts or video recordings), creating clear tables or customer databases.`,
     textsFoot: '',
 
     lucky: "Didn't find what you need?",
@@ -196,7 +196,7 @@ const translations = {
     home: 'Startseite',
     services: 'Leistungen',
     pricing: 'Preise',
-    about: 'Über uns',
+    about: 'Über mich',
     portfolio: 'Portfolio',
     contact: 'Kontakt',
 
@@ -254,11 +254,11 @@ const translations = {
 
 
 
-    ourServices: 'Unsere Dienstleistungen',
+    ourServices: 'Meine Dienstleistungen',
 
     administration: 'Büroarbeiten',
     administrationSubtitle: 'Benötigen Sie Hilfe bei der Administration?',
-    administrationText: `Unser Leistungsspektrum umfasst zum Beispiel: Online-Informationssuche, Datenverwaltung, ` +
+    administrationText: `Mein Leistungsspektrum umfasst zum Beispiel: Online-Informationssuche, Datenverwaltung, ` +
       `Kalenderverwaltung, Dokumentenbearbeitung, Berichte, Marktforschung, Dokumentenbearbeitung, Dateneingabe in das System.`,
     administrationFoot: 'Lassen Sie mich bitte wissen, wie ich ihnen helfen kann!',
 
@@ -279,16 +279,16 @@ const translations = {
       `Ankündigungen oder eine Speisekarte oder Preisliste für einen Schönheitssalon benötigen, ich bin für Sie da. ` +
       `Teilen Sie mir einfach die Einzelheiten Ihrer Anforderungen mit und wir können mit der Erstellung eines professionellen Designs beginnen, das Ihren Anforderungen entspricht.`,
     graficText: `Logo, Verpackungs- und Produktdesign, digitale Produkte, Marketingmaterialien, gedruckte Materialien, Werbematerialien (Banner), ` +
-      `Geschäfts-/ Veranstaltungsplakate, Speise- und Getränkekarten, Preislisten, Veranstaltungseinladungen, Ankündigungen, FB/IG-Postdesign, Fotobearbeitung, Videos , Untertitel einfügen`,
+      `Geschäfts-/ Veranstaltungsplakate, Speise- und Getränkekarten, Preislisten, Veranstaltungseinladungen, Ankündigungen, FB/IG-Postdesign, Fotobearbeitung, Videos, Untertitel einfügen.`,
     graficFoot: '',
 
     texts: 'Texte & Übersetzungen',
-    textsSubtitle: `Wenn Sie Schwierigkeiten haben, mit Texten oder Übersetzungen umzugehen, überlassen Sie es uns.` +
-      `Egal, ob Sie Texte für die Website benötigen, für Werbung oder ein Skript zur Kundenansprache erstellen müssen.` +
-      `Neben regulären Übersetzungen biete ich als Master in Molekularbiologie auch Übersetzungen professioneller biologischer Texte für Ihre Publikationen an,` +
-      `oder Hilfe bei der Erstellung von Dokumenten, Literaturrecherchen und Sprachkorrekturen.`,
-    textsText: `Erstellung und Planung von Inhalten, Artikeln, Textbeiträgen (Bearbeitung von Artikeln und zweite Augen bei möglichen Fehlern in Ihrem Text),` +
-      `Grafiken, Umschreiben (Dokumente, Podcasts oder Videoaufzeichnungen), Erstellen übersichtlicher Tabellen oder Kundendatenbanken`,
+    textsSubtitle: `Wenn Sie Schwierigkeiten haben, mit Texten oder Übersetzungen umzugehen, überlassen Sie es mich. ` +
+      `Egal, ob Sie Texte für die Website benötigen, für Werbung oder ein Skript zur Kundenansprache erstellen müssen. ` +
+      `Neben regulären Übersetzungen biete ich als Master in Molekularbiologie auch Übersetzungen professioneller biologischer Texte für Ihre Publikationen an, ` +
+      `oder Hilfe bei der Erstellung von Dokumenten, Literaturrecherchen und Sprachkorrekturen. `,
+    textsText: `Erstellung und Planung von Inhalten, Artikeln, Textbeiträgen (Bearbeitung von Artikeln und zweite Augen bei möglichen Fehlern in Ihrem Text), ` +
+      `Grafiken, Umschreiben (Dokumente, Podcasts oder Videoaufzeichnungen), Erstellen übersichtlicher Tabellen oder Kundendatenbanken.`,
     textsFoot: '',
 
     lucky: 'Haben Sie nicht gefunden, was Sie brauchen?',
@@ -345,7 +345,7 @@ const translations = {
 
 
 
-    aboutTitle: '',
+    aboutTitle: 'Wer ist Ihr virtueller Assistent ?',
     aboutText1: {
       p1: `Es war einmal, dass ich in der Unternehmenswelt gefangen war und in einem Back-Office-Job gut zurechtkam, ` +
         `der es mir ermöglichte, mit minimaler Aufsicht erfolgreich zu sein. Das Leben war gut, bis ein neuer Manager kam, ` +
@@ -390,7 +390,7 @@ const translations = {
     home: 'Domov',
     services: 'Služby',
     pricing: 'Cenník',
-    about: 'O nás',
+    about: 'O mne',
     portfolio: 'Portfólio',
     contact: 'Kontakt',
 
@@ -420,7 +420,7 @@ const translations = {
     homeCarouselDescription1: `Som neúnavná vo svojom záväzku k dokonalosti a neustále sa snažím zabezpečiť, aby Vaše úlohy boli dokončené nielen včas, ale aj precízne. Môžete sa na mňa spoľahnúť, že preukážem vynikajúce výsledky a nenechám priestor na pochybnosti alebo sklamanie.`,
     homeCarouselTitle2: "Nezávislosť",
     homeCarouselDescription2: `Prijímajúc večnú cestu sebazdokonaľovania, neustále sa zapájam do vzdelávania a navštevujem kurzy, aby som si zdokonalila svoje zručnosti. Moja starostlivá pozornosť venovaná detailom zabezpečuje komplexný a dôkladný prístup ku všetkým zadaniam.`,
-    homeCarouselTitle3: "Oslobodenie od času",
+    homeCarouselTitle3: "Získanie času",
     homeCarouselDescription3: `Predstavte si vzácne hodiny, ktoré by ste mohli získať späť na expanziu podnikania, uprednostnenie kľúčových činností alebo dokonca doprianie si zaslúženého osobného času. Využitím mojich služieb môžu podnikatelia získať množstvo času a využiť ho na to, na čom im skutočne záleží.`,
     homeCarouselTitle4: "Finančná efektívnosť",
     homeCarouselDescription4: `Jedným z najatraktívnejších aspektov práce s virtuálnym asistentom je efektívnosť nákladov. S virtuálnym asistentom platíte len za konkrétne služby, ktoré požadujete. Rozlúčte sa s výdavkami súvisiacimi s daňami, kancelárskym vybavením a školením. V porovnaní s prijatím zamestnanca sa dodatočné režijné náklady rozplynú, keďže sa o všetko postarám samostatne.`,
@@ -430,11 +430,11 @@ const translations = {
 
 
 
-    ourServices: 'Služby',
+    ourServices: 'Moje Služby',
 
     administration: 'Administratíva',
     administrationSubtitle: 'Potrebujete pomôcť s administratívou?',
-    administrationText: `Ponuka našich služieb zahŕňa napríklad: Vyhľadávanie informácií online, Správa dát, Správa kalendára, Úprava dokumentov, Reporty, Prieskum trhu, Spracovanie dokumentov, Zadávanie údajov do systému.`,
+    administrationText: `Ponuka mojich služieb zahŕňa napríklad: Vyhľadávanie informácií online, Správa dát, Správa kalendára, Úprava dokumentov, Reporty, Prieskum trhu, Spracovanie dokumentov, Zadávanie údajov do systému.`,
     administrationFoot: 'Dajte mi vedieť, ako Vám môžem pomôcť!',
 
     social: 'Správa sociálnych sieti',
@@ -449,12 +449,12 @@ const translations = {
 
     grafic: 'Grafický dizajn',
     graficSubtitle: `Bez ohľadu na to, či potrebujete profesionálne logo na mieru alebo dizajn pre pozvánky, letáky, vizitky, oznámenia alebo jedálny lístok či cenník do kozmetického salónu, som tu pre Vás. Stačí mi poskytnúť podrobnosti o Vašich požiadavkách a môžeme začať pracovať na vytvorení profesionálneho dizajnu, ktorý vyhovuje Vašim potrebám.`,
-    graficText: `Logo, Dizajn obalov a produktov, Digitálne produkty, Marketingové materiály, Tlačoviny, Reklamné materiály (bannery), Plagáty do podniku/na event, Jedálne a nápojové lístky, Cenníky, Pozvánky na udalosti, Oznámenia, Návrh príspevkov na FB/IG, Úprava fotiek, videí, vkladanie tituliek`,
+    graficText: `Logo, Dizajn obalov a produktov, Digitálne produkty, Marketingové materiály, Tlačoviny, Reklamné materiály (bannery), Plagáty do podniku/na event, Jedálne a nápojové lístky, Cenníky, Pozvánky na udalosti, Oznámenia, Návrh príspevkov na FB/IG, Úprava fotiek, videí, vkladanie tituliek.`,
     graficFoot: '',
 
     texts: 'Texty a preklady',
-    textsSubtitle: `Ak sa vám zdá ťažké poradiť si s textami alebo prekladmi, nechajte to na nás. Či už potrebujete texty na web, reklamu alebo potrebujete vytvoriť skript na oslovovanie klientov. Okrem bežných prekladov ako magister z molekulárnej biológie ponúkam aj preklady odborných biologických textov pre vaše publikácie, alebo pomoc s prípravou dokumentov, rešeršemi v literatúre a jazykovými korektúrami.`,
-    textsText: `Tvorba a plánovanie obsahu, článkov, textovania príspevkov (úprava článkov a druhé oči v prípade možných chýb vo vašom texte), grafika, prepisovanie (dokumentov, podcastov alebo videonahrávok), vytváranie prehľadných tabuliek alebo databáz zákazníkov`,
+    textsSubtitle: `Ak sa vám zdá ťažké poradiť si s textami alebo prekladmi, nechajte to na mňa. Či už potrebujete texty na web, reklamu alebo potrebujete vytvoriť skript na oslovovanie klientov. Okrem bežných prekladov ako magister z molekulárnej biológie ponúkam aj preklady odborných biologických textov pre vaše publikácie, alebo pomoc s prípravou dokumentov, rešeršemi v literatúre a jazykovými korektúrami.`,
+    textsText: `Tvorba a plánovanie obsahu, článkov, textovania príspevkov (úprava článkov a druhé oči v prípade možných chýb vo vašom texte), grafika, prepisovanie (dokumentov, podcastov alebo videonahrávok), vytváranie prehľadných tabuliek alebo databáz zákazníkov.`,
     textsFoot: '',
 
     lucky: 'Nenašli ste čo ste potrebovali?',
@@ -511,7 +511,7 @@ const translations = {
 
 
 
-    aboutTitle: '',
+    aboutTitle: 'Kto je Vaša virtuálna asistentka ?',
     aboutText1: {
       p1: `Kedysi dávno som sa ocitla v korporátnom svete, pričom som si počínala dobre v rámci back-office práce, ktorá mi umožňovala prosperovať s minimálnym dohľadom. Pracovný život išiel dobre, kým neprišiel nový manažér, ktorý so sebou priniesol štýl mikromanažmentu, ktorý dusil moju nezávislosť a kreativitu.`,
       p2: `Vtedy som vedela, že sa musím oslobodiť a vydala som sa na cestu hľadania práce, ktorá by mi dala slobodu, po ktorej som túžila. Preskakoval som z jednej spoločnosti do druhej, neustále som sa učila a rýchlo sa prispôsobovala novým rolám. Ale niečo tomu stále chýbalo. Svoju prácu som si dokončila rýchlosťou blesku a dôsledne, avšak bez povšimnutia a nemohola som sa zbaviť pocitu, že môžem ponúknuť oveľa viac.`,
@@ -545,7 +545,7 @@ const translations = {
     home: 'Domů',
     services: 'Služby',
     pricing: 'Ceník',
-    about: 'O nás',
+    about: 'O mně',
     portfolio: 'Portfólio',
     contact: 'Kontakt',
 
@@ -583,11 +583,11 @@ const translations = {
 
 
 
-    ourServices: 'Naše služby',
+    ourServices: 'Moje Služby',
 
     administration: 'Administrativa',
     administrationSubtitle: 'Potřebujete pomoci s administrativou?',
-    administrationText: `Nabídka našich služeb zahrnuje například: Vyhledávání informací online, Správa dat, Správa kalendáře, Úprava dokumentů, Reporty, Průzkum trhu, Zpracování dokumentů, Zadávání údajů do systému.`,
+    administrationText: `Nabídka mojich služeb zahrnuje například: Vyhledávání informací online, Správa dat, Správa kalendáře, Úprava dokumentů, Reporty, Průzkum trhu, Zpracování dokumentů, Zadávání údajů do systému.`,
     administrationFoot: 'Dejte mi vědět, jak Vám můžu pomoci!',
 
 
@@ -603,12 +603,12 @@ const translations = {
 
     grafic: 'Grafický design',
     graficSubtitle: `Bez ohledu na to, zda potřebujete profesionální logo na míru nebo design pro pozvánky, letáky, vizitky, oznámení nebo jídelníček či ceník do kosmetického salonu, jsem tady pro Vás. Stačí mi poskytnout podrobnosti o vašich požadavcích a můžeme začít pracovat na vytvoření profesionálního designu, který vyhovuje vašim potřebám.`,
-    graficText: `Logo, Design obalů a produktů, Digitální produkty, Marketingové materiály, Tiskoviny, Reklamní materiály (bannery), Plakáty do podniku/na event, Jídelní a nápojové lístky, Ceníky, Pozvánky na události, Oznámení, Návrh příspěvků na FB/IG, Úprava fotek , videí, vkládání titulek`,
+    graficText: `Logo, Design obalů a produktů, Digitální produkty, Marketingové materiály, Tiskoviny, Reklamní materiály (bannery), Plakáty do podniku/na event, Jídelní a nápojové lístky, Ceníky, Pozvánky na události, Oznámení, Návrh příspěvků na FB/IG, Úprava fotek, videí, vkládání titulek.`,
     graficFoot: '',
 
     texts: 'Texty a překlady',
-    textsSubtitle: `Pokud je pro vás obtížné vypořádat se s texty nebo překlady, nechte to na nás. Ať už potřebujete texty na web, do reklamy nebo potřebujete vytvořit skript pro oslovování klientů. Kromě běžných překladů jako magistra molekulární biologie nabízím také překlady odborných biologických textů pro vaše publikace, nebo pomoc s přípravou dokumentů, rešeršemi v literatuře a jazykovými korekturami.`,
-    textsText: `Tvorba a plánování obsahu, článků, textování příspěvků (editace článků a druhé oči v případě možných chyb ve vašem textu), grafika, přepisování (dokumentů, podcastů nebo videonahrávek), vytváření přehledných tabulek nebo zákaznických databází`,
+    textsSubtitle: `Pokud je pro vás obtížné vypořádat se s texty nebo překlady, nechte to na mě. Ať už potřebujete texty na web, do reklamy nebo potřebujete vytvořit skript pro oslovování klientů. Kromě běžných překladů jako magistra molekulární biologie nabízím také překlady odborných biologických textů pro vaše publikace, nebo pomoc s přípravou dokumentů, rešeršemi v literatuře a jazykovými korekturami.`,
+    textsText: `Tvorba a plánování obsahu, článků, textování příspěvků (editace článků a druhé oči v případě možných chyb ve vašem textu), grafika, přepisování (dokumentů, podcastů nebo videonahrávek), vytváření přehledných tabulek nebo zákaznických databází.`,
     textsFoot: '',
 
     lucky: 'Nenašli jste co jste potřebovali?',
@@ -668,7 +668,7 @@ const translations = {
 
 
 
-    aboutTitle: '',
+    aboutTitle: 'Kdo je Vaše virtuální asistentka ?',
     aboutText1: {
       p1: `Kdysi dávno jsem zjistil, že jsem uvězněn v korporátním světě, dařilo se mi dobře v back-office práci, která mi umožňovala prosperovat s minimálním dohledem. Život byl dobrý, dokud nepřišel nový manažer, který s sebou přinesl styl mikrořízení, který udusil moji nezávislost a kreativitu.`,
       p2: `Tehdy jsem věděl, že se musím osvobodit. Šel jsem hledat práci, která by mi dala svobodu, po které jsem toužil. Přeskakoval jsem z jedné společnosti do druhé, neustále jsem se učil a rychle se přizpůsoboval novým rolím. Ale něco tomu chybělo. Svou práci bych dokončil rychlostí blesku, jen aby mi zůstaly prázdné a všední hodiny. Nemohl jsem se zbavit pocitu, že toho můžu dát mnohem víc.`,

@@ -14,7 +14,7 @@ const HomePage = () => {
     <>
       <PageLayout>
         {/* <Title title={<MultiLingualContent contentID='homeTitle' />} /> */}
-        <Content title='homeTitle' text='aboutText1' />
+        <Content title='aboutTitle' text='aboutText1' />
         <Circle />
         {/* <Carousel {...slider} /> */}
         <Content text='aboutText2' />

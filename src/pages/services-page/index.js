@@ -7,7 +7,6 @@ import Footer from '../../components/footer';
 import Title from '../../components/title';
 import Accordion from '../../components/accordion';
 import { accordionData } from '../../utils/servicesData';
-// import HorizontalAccordion from '../../components/horizontalAccordion';
 import Services from '../../components/services-bundle/Chess-card';
 import ServicesMobile from '../../components/services-bundle/Services-card-mobile';
 

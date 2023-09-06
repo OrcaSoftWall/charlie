@@ -1,7 +1,6 @@
 {
   "private": "false",
   "home": "http://orcasoftwall.github.io/charlie/",
-  "homepage": "http://orcasoftwall.github.io/charlie/",
   "name": "virtual-assistant",
   "version": "0.1.0",
   "dependencies": {

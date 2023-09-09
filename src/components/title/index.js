@@ -1,5 +1,5 @@
 import styles from './index.module.css'
-import '../../fonts/WhiteAngelica.ttf'
+// import '../../fonts/WhiteAngelica.ttf'
 
 const Title = ({ title }) => {
   return (

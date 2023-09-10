@@ -474,15 +474,15 @@ const translations = {
     },
 
     priceStartTitle: "Start",
-    priceStartSubtitle: "300 €/mesiac",
+    priceStartSubtitle: "300 € / mesiac",
     priceStartContent: {
       ul1: "20 hodín",
-      ul2: "15,00 € / hodinu",
+      ul2: "15,00 €/hod",
       ul3: "Tento balík obsahuje všetky služby virtuálneho asistenta",
     },
 
     priceExtraTitle: "Extra",
-    priceExtraSubtitle: "560 €/mesiac",
+    priceExtraSubtitle: "560 € / mesiac",
     priceExtraContent: {
       ul1: "40 hodín",
       ul2: "14,00 €/hod",
@@ -490,7 +490,7 @@ const translations = {
 
     },
     pricePremiumTitle: "Premium",
-    pricePremiumSubtitle: "828 €/mesiac",
+    pricePremiumSubtitle: "828 € / mesiac",
     pricePremiumContent: {
       ul1: "60 hodín",
       ul2: "13,80 €/hod",
@@ -498,9 +498,9 @@ const translations = {
 
     },
     priceSocialMediaTitle: "Social Media",
-    priceSocialMediaSubtitle: "350 €/mesiac",
+    priceSocialMediaSubtitle: "350 € / mesiac",
     priceSocialMediaContent: {
-      ul1: "Tvorba príspevkov, príbehov, kotúčov",
+      ul1: "Tvorba príspevkov, príbehov, reels",
       ul2: "Odpovedanie na komentáre a správy",
       ul3: "Organizácia súťaží",
 
@@ -657,7 +657,7 @@ const translations = {
     priceSocialMediaTitle: "Social Media",
     priceSocialMediaSubtitle: "350 € / měsíc",
     priceSocialMediaContent: {
-      ul1: "Tvorba příspěvků, příběhů, rolí",
+      ul1: "Tvorba příspěvků, příběhů, reels",
       ul2: "Odpovídání na komentáře a zprávy",
       ul3: "Organizace soutěží",
 

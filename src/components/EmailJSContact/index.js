@@ -13,7 +13,8 @@ export const ContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     console.log(e)
-    emailjs.sendForm(`${apiKeys.SERVICE_ID[0]}`, `${apiKeys.TEMPLATE_ID}`, form.current, `${apiKeys.PUBLIC_KEY[0]}${apiKeys.PUBLIC_KEY[1]}`)
+    emailjs.sendForm(`${process.env.REACT_APP_SERVICE_ID}`, `${process.env.REACT_APP_TEMPLATE_ID}`, form.current, `${process.env.REACT_APP_PUBLIC_KEY}`)
+    // emailjs.sendForm(`${apiKeys.SERVICE_ID[0]}`, `${apiKeys.TEMPLATE_ID}`, form.current, `${apiKeys.PUBLIC_KEY[0]}${apiKeys.PUBLIC_KEY[1]}`)
       .then((result) => {
         document.getElementById("contactForm").reset();
         console.log(result.text);
@@ -21,18 +22,6 @@ export const ContactUs = () => {
         console.log(error.text);
       });
   };
-
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-  //   // console.log(e)
-  //   emailjs.sendForm(apiKeys.SERVICE_ID1, apiKeys.TEMPLATE_ID1, form.current, apiKeys.PUBLIC_KEY1)
-  //     .then((result) => {
-  //       document.getElementById("contactForm").reset();
-  //       console.log(result.text);
-  //     }, (error) => {
-  //       console.log(error.text);
-  //     });
-  // };
 
   const MultyContent = ( contentID ) => {
     const { language } = useContext(LanguageContext);
@@ -62,5 +51,3 @@ export const ContactUs = () => {
     </>
   );
 };
-
-{/* <textarea className={styles.text} name="message" placeholder="Drop me a message..." spellCheck="true" required minLength="40" /> */}

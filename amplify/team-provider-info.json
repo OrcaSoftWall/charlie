@@ -16,7 +16,7 @@
       "function": {
         "virtualassistantbb789e1e": {
           "deploymentBucketName": "amplify-virtualassistant-dev-160710-deployment",
-          "s3Key": "amplify-builds/virtualassistantbb789e1e-4f596b5a54695749422f-build.zip"
+          "s3Key": "amplify-builds/virtualassistantbb789e1e-436d4675704c5936464e-build.zip"
         }
       },
       "auth": {

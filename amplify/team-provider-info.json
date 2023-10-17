@@ -1,0 +1,30 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-virtualassistant-dev-160710-authRole",
+      "UnauthRoleArn": "arn:aws:iam::203150871186:role/amplify-virtualassistant-dev-160710-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::203150871186:role/amplify-virtualassistant-dev-160710-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-virtualassistant-dev-160710-deployment",
+      "UnauthRoleName": "amplify-virtualassistant-dev-160710-unauthRole",
+      "StackName": "amplify-virtualassistant-dev-160710",
+      "StackId": "arn:aws:cloudformation:eu-central-1:203150871186:stack/amplify-virtualassistant-dev-160710/787a9c40-6cf6-11ee-aefe-06ea1337cbdd",
+      "AmplifyAppId": "d3hha907urnqcz",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-virtualassistant-dev-160710-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "virtualassistantbb789e1e": {
+          "deploymentBucketName": "amplify-virtualassistant-dev-160710-deployment",
+          "s3Key": "amplify-builds/virtualassistantbb789e1e-4f596b5a54695749422f-build.zip"
+        }
+      },
+      "auth": {
+        "virtualassistant": {}
+      },
+      "api": {
+        "CharlieApi": {}
+      }
+    }
+  }
+}

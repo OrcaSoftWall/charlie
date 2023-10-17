@@ -1,0 +1,69 @@
+{
+  "api": {
+    "CharlieApi": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "virtualassistantbb789e1e"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "auth": {
+    "virtualassistant": {
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "managed"
+    }
+  },
+  "function": {
+    "virtualassistantbb789e1e": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_virtualassistantbb789e1e_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "virtualassistantbb789e1e"
+        }
+      ]
+    },
+    "AMPLIFY_function_virtualassistantbb789e1e_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "virtualassistantbb789e1e"
+        }
+      ]
+    }
+  }
+}

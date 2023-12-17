@@ -47,23 +47,5 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
-  },
-  "parameters": {
-    "AMPLIFY_function_virtualassistantbb789e1e_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "virtualassistantbb789e1e"
-        }
-      ]
-    },
-    "AMPLIFY_function_virtualassistantbb789e1e_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "virtualassistantbb789e1e"
-        }
-      ]
-    }
   }
 }

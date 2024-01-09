@@ -3,7 +3,7 @@ const links = [
     { contentID: 'services', link: '/services' },
     { contentID: 'pricing', link: '/pricing' },
     { contentID: 'about', link: '/about' },
-    { contentID: 'portfolio', link: '/portfolio' },
+    // { contentID: 'portfolio', link: '/portfolio' },
     { contentID: `contact`, link: '/contact' },
 ];
 
